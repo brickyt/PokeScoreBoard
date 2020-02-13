@@ -1,0 +1,56 @@
+Be sure to have a copy of jQuery library and font awesome in your header message. If already using other scripts created , you may already have this. But double check....
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="//use.fontawesome.com/6ccd97559b.js"></script>
+ 
+
+ 
+
+2. Place this in your header message
+
+<script>
+//THIS NEEDS TO BE PLACED IN HEADER AND IS USED TO GO BACK IN HISTORY FOR MFL'S LIVE SCORING
+if(document.getElementById("body_ajax_ls")) {
+	var ls_liveScoringWeekCheck = parseInt(location.href.substr( location.href.indexOf("W2=")+3 , 2 ));
+	if(ls_liveScoringWeekCheck>0&&ls_liveScoringWeekCheck<liveScoringWeek) {
+		liveScoringWeek = parseInt(location.href.substr( location.href.indexOf("W2=")+3 , 2 ));
+	}
+}
+</script>
+ 
+
+ 
+
+3. Place the following in a footer message (THERE ARE 2 SCRIPTS IN THIS SECTION ONLY INSTALL THE ONE THAT DESCRIBES YOUR LEAGUE - H2H or ALL PLAY)
+
+<script>
+var ls_scoreboardName = "LEAGUE SCOREBOARD";   //enter text to name your scoreboard
+var showTeamName = false;                      //set to true to display franchise names in scoreboard header
+var showTeamIcon = true;                       //set to true to display franchise icons in scoreboard header
+var ls_includeProjections = true;              //set to true to display projections next to player scores
+var ls_includeInjuryStatus = true;             //set to true to display injury status as per the norm
+var ls_excludeIR = true;                       //set to true to remove players on fantasy IR
+var ls_excludeTaxi = true;                     //set to true to remove players on taxi squad
+var ls_popup_abbrev_name_icon = 2;             // -1=disable; 0=abbrev; 1=name; 2=icon
+var ls_orig_proj_when_final = true;            //set true to change pace to projection when games go final
+var ls_popup_status = true;                    //set true to add status of player to popup
+var ls_box_abbrev_name_icon = 2;               //0=abbrev; 1=name; 2=icon; 3=icon+abbrev; 4=icon+name
+var ls_hide_bye_teams = false;                 //set to true to hide boxscore matchup teams on bye weeks
+</script>
+
+<!-- MFL LIVE SCORING SCRIPT H2H LEAGUES --> 
+<script src="//nitrografixx.com/MFL-Scoreboard/mfl_ls_scoring.js?v=v=1.0.6"></script> 
+
+<!-- MFL LIVE SCORING SCRIPT ALL PLAY LEAGUES --> 
+<script src="//nitrografixx.com/MFL-Scoreboard/mfl_ls_scoring_allplay.js?v=1.0.6"></script>  
+ 
+
+ 
+
+4. Here are links to the CSS file used to format and color it , copy and paste it in your main css file. Make color edits if needed. Find color changes in section that is labeled   "/* MFL SCORING COLOR CHANGES */"
+
+ 
+
+H2H Dark version - css file http://nitrografixx.com/MFL-Scoreboard/dark_scoring_css.css?v=7
+
+H2H Light version - css file http://nitrografixx.com/MFL-Scoreboard/light_scoring_css.css?v=7
