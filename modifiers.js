@@ -1,7 +1,7 @@
 //https://codepen.io/FelixRilling/pen/ExdIC
 
 //Top level type is the defender
-//example: Bug is the defending team and Fire is the attacking NFL player
+//example: Bug (line 10) is the defending team and Fire (line 17) is the attacking NFL player
 
 const app = new Vue({
   el: "#app",
