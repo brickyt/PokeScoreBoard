@@ -2,12 +2,12 @@
 Goal: To combine my Google Sheet scoreboard (https://i.imgur.com/Ldmrb7P.png) with a custom scoreboard (https://www.dagrafixdesigns.com/images/gallery-zoom-3.jpg) for the Pokemon Dynasty League.
 
 More Specifics:
-    Add a column that displays associated TYPE with player (based on NFL team, see NFLTypeMap.js)
-    Add a column that displays the modifier for the NFL player vs. defending team (see modifiers.js)
-    Add a column that displays the result of the player's score multiplied by the modifier
-    Remove S.O.S column
-    Remove Pace column and Pace total
-    Remove Game column
+   - [ ] Add a column that displays associated TYPE with player (based on NFL team, see NFLTypeMap.js)
+   - [ ] Add a column that displays the modifier for the NFL player vs. defending team (see modifiers.js)
+   - [ ] Add a column that displays the result of the player's score multiplied by the modifier
+   - [ ] Remove S.O.S column
+   - [ ] Remove Pace column and Pace total
+   - [ ] Remove Game column
     
 
 All credit goes to TOS, Habman, Sticks, https://www.dagrafixdesigns.com and https://nitrografixx.com/
