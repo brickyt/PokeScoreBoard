@@ -15,3 +15,7 @@ All credit goes to TOS, Habman, Sticks, https://www.dagrafixdesigns.com and http
 Forum post made by TOS: http://forums.myfantasyleague.com/forums/index.php?showtopic=37560
 
 Unmodified Scoreboard example page (not fully populated as of winter 2020): https://www63.myfantasyleague.com/2020/ajax_ls?L=43570
+
+# Notes and Sub-Tasks
+- [x] Create constants files
+- [ ] Find a way to populate scoreboard in off-season on myfantasyleague.com
