@@ -18,3 +18,10 @@ Original Scoreboard example page (not fully populated as of winter 2020): https:
 # Notes and Sub-Tasks
 - [x] Create constants files
 - [ ] Find a way to populate scoreboard in off-season on myfantasyleague.com
+
+
+
+
+## Stretch Goals
+- [ ] CSS edits to make pretty
+- [ ] Rotom visuals
