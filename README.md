@@ -1,7 +1,7 @@
 # PokeScoreBoard
 Goal: To combine my Google Sheet scoreboard (https://i.imgur.com/Ldmrb7P.png) with a custom scoreboard (https://www.dagrafixdesigns.com/images/gallery-zoom-3.jpg) for the Pokemon Dynasty League.
 
-More Specifics:
+Specific changes that are needed:
    - [ ] Add a column that displays associated TYPE with player (based on NFL team, see NFLTypeMap.js)
    - [ ] Add a column that displays the modifier for the NFL player vs. defending team (see modifiers.js)
    - [ ] Add a column that displays the result of the player's score multiplied by the modifier
@@ -14,7 +14,7 @@ All credit goes to TOS, Habman, Sticks, https://www.dagrafixdesigns.com and http
 
 Forum post made by TOS: http://forums.myfantasyleague.com/forums/index.php?showtopic=37560
 
-Unmodified Scoreboard example page (not fully populated as of winter 2020): https://www63.myfantasyleague.com/2020/ajax_ls?L=43570
+Original Scoreboard example page (not fully populated as of winter 2020): https://www63.myfantasyleague.com/2020/ajax_ls?L=43570
 
 # Notes and Sub-Tasks
 - [x] Create constants files
