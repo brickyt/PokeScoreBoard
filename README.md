@@ -15,7 +15,7 @@ Forum post made by TOS explaining setup within MyfantasyLeague: http://forums.my
 
 Original Scoreboard example page (not fully populated as of winter 2020): https://www63.myfantasyleague.com/2020/ajax_ls?L=43570
 
-# Notes and Sub-Tasks
+## Notes and Sub-Tasks
 - [x] Create constants files
 - [ ] Find a way to populate scoreboard in off-season on myfantasyleague.com
 
