@@ -9,10 +9,9 @@ Specific changes that are needed:
    - [ ] Remove Pace column and Pace total
    - [ ] Remove Game column
     
-
 All credit goes to TOS, Habman, Sticks, https://www.dagrafixdesigns.com and https://nitrografixx.com/
 
-Forum post made by TOS: http://forums.myfantasyleague.com/forums/index.php?showtopic=37560
+Forum post made by TOS explaining setup within MyfantasyLeague: http://forums.myfantasyleague.com/forums/index.php?showtopic=37560
 
 Original Scoreboard example page (not fully populated as of winter 2020): https://www63.myfantasyleague.com/2020/ajax_ls?L=43570
 
