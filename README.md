@@ -16,6 +16,7 @@ Goal: To combine my Google Sheet scoreboard (https://i.imgur.com/Ldmrb7P.png) wi
 ## Notes and Sub-Tasks
 - [x] Create constants files
 - [x] Find a way to populate scoreboard in off-season on myfantasyleague.com
+- [ ] Edit setup html (MFL Setup Instructions) to redirect to GitHub or other hosting
 
 
 
