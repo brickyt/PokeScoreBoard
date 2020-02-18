@@ -1,0 +1,92 @@
+@media only screen and (max-width: 66.500em) {
+    #MFLRoadScore > div:nth-child(1) > span:nth-child(1),
+    #MFLHomeScore > div:nth-child(1) > span:nth-child(1) {
+        display: none
+    }
+}
+
+@media only screen and (max-width: 62.500em) {
+    #outerMFLScoreboardDiv .mobile-view {
+        width: 50%!important
+    }
+    #MFLRoadScore > div:nth-child(1) > span:nth-child(2),
+    #MFLHomeScore > div:nth-child(1) > span:nth-child(2) {
+        display: none
+    }
+}
+
+@media only screen and (max-width:54.250em) {
+    #outerMFLScoreboardDiv .mobile-view {
+        width: 100%!important
+    }
+    #MFLScoreboardHomeLineup,
+    #MFLScoreboardRoadLineup {
+        margin-top: 5px;
+        margin-top: .313rem
+    }
+    #outerMFLScoreboardDiv .mobile-hide {
+        display: none
+    }
+    #outerMFLScoreboardDiv .desktop-hide-caption {
+        display: table-caption
+    }
+    .desktop-hide-table {
+        display: table
+    }
+    #MFLCenterTop,
+    .MFLMainScoreboard td.MFLScoreboardTitle,
+    #MFLRoadPlayers,
+    #MFLRoadYTP,
+    #MFLRoadPMR,
+    #MFLHomePlayers,
+    #MFLHomeYTP,
+    #MFLHomePMR {
+        display: none
+    }
+    #MFLRoadScore > div:nth-child(1) > span:nth-child(1),
+    #MFLHomeScore > div:nth-child(1) > span:nth-child(1) {
+        display: table-cell
+    }
+    #MFLRoadScore > div:nth-child(1) > span:nth-child(2),
+    #MFLHomeScore > div:nth-child(1) > span:nth-child(2) {
+        display: table-cell
+    }
+    .MFLScoreboardLineups tr.lineupHeaderRow th {
+        width: 20%
+    }
+    .MFLScoreboardLineups tr.lineupHeaderRow th.lineupHeaderPlayer {
+        width: 60%
+    }
+}
+
+@media only screen and (max-width:44.250em) {
+    #MFLRoadScore > div:nth-child(1) > span:nth-child(1),
+    #MFLHomeScore > div:nth-child(1) > span:nth-child(1) {
+        display: none
+    }
+}
+
+@media only screen and (max-width:38.250em) {
+    #MFLRoadScore > div:nth-child(1) > span:nth-child(2),
+    #MFLHomeScore > div:nth-child(1) > span:nth-child(2) {
+        display: none
+    }
+    #MFLRoadTeamName,
+    #MFLHomeTeamName {
+        font-size: 20px;
+        font-size: 1.25rem
+    }
+    #MFLRoadScore span a,
+    #MFLHomeScore span a {
+        font-size: 30px;
+        font-size: 1.875rem
+    }
+}
+
+@media only screen and (max-width:32.250em) {
+    #MFLRoadTeamName,
+    #MFLHomeTeamName {
+        font-size: 16px;
+        font-size: 1rem
+    }
+}
