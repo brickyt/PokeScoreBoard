@@ -636,7 +636,7 @@ div.ls_team_points {
 
 #body_ajax_ls tr.td-totals-row td {
   background: #fff;
-  color: blue
+  color: #0073cf
 }
 
 
@@ -691,7 +691,7 @@ div.ls_team_points {
 /*live stats update ticker first td cell bg and text color*/
 
 #body_ajax_ls #ls_ticker_tab_id td:first-of-type {
-  background: blue;
+  background: #eead30;
   color: #fff
 }
 
@@ -819,7 +819,7 @@ div.ls_team_points {
 
 #LS_AwayScore span a,
 #LS_HomeScore span a {
-  color: blue
+  color: #0073cf
 }
 
 #LS_AwayScore span:before,
