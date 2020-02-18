@@ -70,7 +70,7 @@
 #LS_TopTableHolder .franchiseicon {
   padding: 5px;
   max-width: 100%;
-  max-height: 60px;
+  max-height: 250px;
 }
 
 #body_ajax_ls #marquee_home,
@@ -636,7 +636,7 @@ div.ls_team_points {
 
 #body_ajax_ls tr.td-totals-row td {
   background: #fff;
-  color: red
+  color: blue
 }
 
 
@@ -691,7 +691,7 @@ div.ls_team_points {
 /*live stats update ticker first td cell bg and text color*/
 
 #body_ajax_ls #ls_ticker_tab_id td:first-of-type {
-  background: red;
+  background: blue;
   color: #fff
 }
 
@@ -819,7 +819,7 @@ div.ls_team_points {
 
 #LS_AwayScore span a,
 #LS_HomeScore span a {
-  color: red
+  color: blue
 }
 
 #LS_AwayScore span:before,
