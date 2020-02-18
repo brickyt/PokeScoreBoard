@@ -543,8 +543,9 @@ div.ls_team_points {
 
 
 /* MFL SCORING COLOR CHANGES */
-
-
+/*dark blue - #2e4b7e*/
+/*royal blue - #0073cf*/
+/*gold - #eead1e*/
 /***************************************/
 
 
@@ -554,31 +555,33 @@ div.ls_team_points {
 /*box score matchups bg color*/
 
 #body_ajax_ls div.ls_other_game {
-  background: #fff;
-  border-color: #ddd
+  background: #ffffff;
+  border-color: #eead1e
 }
 
 
 /*box score matchups hover bg color and current game bg color*/
 
 #body_ajax_ls div.ls_other_game:hover {
-  background: #eee
+  background: #0073cf
 }
 
 #body_ajax_ls div.ls_other_game.current_matchup {
-  background-color: #eee
+  background-color:  #eead1e
 }
 
 
 /*box score matchups current game border color*/
 
-#body_ajax_ls div.ls_other_game.current_matchup {}
+#body_ajax_ls div.ls_other_game.current_matchup {
+  background: #eead1e
+}
 
 
 /*text color for points in box score table*/
 
 #body_ajax_ls td div[class^="ogffpts"] {
-  color: #000
+  color: rgb(0, 0, 0)
 }
 
 
@@ -588,7 +591,7 @@ div.ls_team_points {
 /*color text for P-PMR-PYT*/
 
 #LS_TopTableHolder td.prmin {
-  color: #555;
+  color: rgb(0, 0, 0);
   width: 5.55%
 }
 
@@ -596,14 +599,14 @@ div.ls_team_points {
 /*border and bg around td cells*/
 
 #LS_TopTableHolder .LS_MainScoreboard td {
-  border: 1px solid #eee;
-  background: #eee;
+  border: 1px solid #ffffff;
+  background: #ffffff;
 }
 
 #LS_TopTableHolder td.LS_ScoreboardTitle,
 #LS_TopTableHolder #LS_AwayScore,
 #LS_TopTableHolder #LS_HomeScore {
-  background: #fff;
+  background: rgb(255, 255, 255);
 }
 
 
@@ -814,7 +817,7 @@ div.ls_team_points {
 
 #LS_AwayScore span,
 #LS_HomeScore span {
-  border-color: #eee;
+  border-color: rgb(255, 255, 255);
 }
 
 #LS_AwayScore span a,
@@ -824,7 +827,7 @@ div.ls_team_points {
 
 #LS_AwayScore span:before,
 #LS_HomeScore span:before {
-  background: #eee
+  background: rgb(255, 255, 255)
 }
 
 #LS_AwayScore span:after,
@@ -836,7 +839,7 @@ div.ls_team_points {
 #LS_HomeScore span a::after,
 #LS_AwayScore span a::before,
 #LS_HomeScore span a::before {
-  border-color: #eee;
+  border-color: #fff;
   background: #fff
 }
 
