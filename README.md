@@ -1,6 +1,5 @@
 # PokeScoreBoard
-### Goal: 
-         To combine my Google Sheet scoreboard (https://i.imgur.com/Ldmrb7P.png) with a custom scoreboard (https://www.dagrafixdesigns.com/images/gallery-zoom-3.jpg) for the Pokemon Dynasty League.
+Goal: To combine my Google Sheet scoreboard (https://i.imgur.com/Ldmrb7P.png) with a custom scoreboard (https://www.dagrafixdesigns.com/images/gallery-zoom-3.jpg) for the Pokemon Dynasty League.
 
 ### Specific changes that are needed:
    - [ ] Add a column that displays associated TYPE with player (based on NFL team, see NFLTypeMap.js)
@@ -12,11 +11,7 @@
     
 ### Link to test page: https://www67.myfantasyleague.com/2020/ajax_ls?L=51962
 
-All credit goes to TOS, Habman, Sticks, https://www.dagrafixdesigns.com and https://nitrografixx.com/
 
-Forum post made by TOS explaining setup within MyfantasyLeague: http://forums.myfantasyleague.com/forums/index.php?showtopic=37560
-
-Original Scoreboard example page (not fully populated as of winter 2020): https://www63.myfantasyleague.com/2020/ajax_ls?L=43570
 
 ## Notes and Sub-Tasks
 - [x] Create constants files
@@ -28,3 +23,9 @@ Original Scoreboard example page (not fully populated as of winter 2020): https:
 ## Stretch Goals
 - [ ] CSS edits to make pretty
 - [ ] Rotom visuals
+
+All credit goes to TOS, Habman, Sticks, https://www.dagrafixdesigns.com and https://nitrografixx.com/
+
+Forum post made by TOS explaining setup within MyfantasyLeague: http://forums.myfantasyleague.com/forums/index.php?showtopic=37560
+
+Original Scoreboard example page (not fully populated as of winter 2020): https://www63.myfantasyleague.com/2020/ajax_ls?L=43570
