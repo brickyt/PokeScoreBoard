@@ -346,6 +346,7 @@ div.ls_withposs.ls_changed,
 }
 
 .ls_pace_box {
+  opacity: 0;
   text-align: center
 }
 
