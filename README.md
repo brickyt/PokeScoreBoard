@@ -1,15 +1,14 @@
 # PokeScoreBoard
-Goal: To combine my Google Sheet scoreboard (https://i.imgur.com/Ldmrb7P.png) with a custom scoreboard (https://www.dagrafixdesigns.com/images/gallery-zoom-3.jpg) for the Pokemon Dynasty League.
+Goal: To combine my Google Sheet scoreboard (https://i.imgur.com/Ldmrb7P.png) with a custom scoreboard (https://i.imgur.com/JKv6QtD.png) for the Pokemon Dynasty League.
 
 ### Link to test page: https://www67.myfantasyleague.com/2020/ajax_ls?L=51962
 
 ## Specific changes that are needed:
-   - [ ] Add a column that displays associated TYPE with player (based on NFL team, see NFLTypeMap.js)
+   - [ ] Add a column that displays associated TYPE with player (based on NFL team, see NFLTypeMap.js) OR display TYPE next to player name with image ala https://brickyt.github.io/playerBadgeScript/index.js
    - [ ] Add a column that displays the modifier for the NFL player vs. defending team (see modifiers.js)
-   - [ ] Add a column that displays the result of the player's score multiplied by the modifier
-   - [ ] Remove S.O.S column
-   - [ ] Remove Pace column and Pace total
-   - [ ] Remove Game column
+   - [ ] Apply modifer to PP (Projected Points) column
+   - [ ] Apply modifer to Points column
+   - [ ] Apply modifer to Points Breakdown popup
     
 
 
@@ -17,8 +16,8 @@ Goal: To combine my Google Sheet scoreboard (https://i.imgur.com/Ldmrb7P.png) wi
 
 ## Notes and Sub-Tasks
 - [x] Create constants files
-- [x] Find a way to populate scoreboard in off-season on myfantasyleague.com
-- [ ] Edit setup myfantasyleague html (found in MFL Setup Instructions) to redirect to GitHub or other hosting
+- [ ] Find a way to populate scoreboard in off-season on myfantasyleague.com
+- [ ] Edit setup myfantasyleague html (found in MFL Setup Instructions) to redirect to GitHub
 
 
 
