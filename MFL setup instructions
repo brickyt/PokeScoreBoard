@@ -51,3 +51,15 @@ var ls_hide_bye_teams = false;                 //set to true to hide boxscore ma
 H2H Dark version - css file http://nitrografixx.com/MFL-Scoreboard/dark_scoring_css.css?v=7
 
 H2H Light version - css file http://nitrografixx.com/MFL-Scoreboard/light_scoring_css.css?v=7
+
+-----------------------------OLD INFO-----------------------------
+
+
+<!-- LOAD SCOREBOARD FORMATTING CSS FILE -->
+<link rel="stylesheet" type="text/css" href="//www.nitrografixx.com/MFL-Scoreboard/skin/Scoreboard_base.css">
+
+<!-- LOAD SCOREBOARD RESPONSIVE CSS FILE REMOVE THIS IF NOT USING RESPONSIVE DESIGNS  -->
+<link rel="stylesheet" type="text/css" href="//www.nitrografixx.com/MFL-Scoreboard/skin/responsive_scoreboard.css">
+
+<!-- LOAD SCOREBOARD JS FILE  -->
+<script src="//www.nitrografixx.com/MFL-Scoreboard/scoreboard.js"></script>
