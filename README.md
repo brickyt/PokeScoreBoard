@@ -1,5 +1,5 @@
 # PokeScoreBoard
-Goal: To combine my Google Sheet scoreboard (https://i.imgur.com/Ldmrb7P.png) with a custom scoreboard (https://i.imgur.com/JKv6QtD.png) for the Pokemon Dynasty League.
+Goal: To combine my Google Sheet scoreboard (https://i.imgur.com/Ldmrb7P.png) with a custom scoreboard (https://i.imgur.com/JKv6QtD.png) for the Pokemon Dynasty League. I am taking the scoreboard code from someone else and it looks like https://www.dagrafixdesigns.com/images/gallery-zoom-3.jpg
 
 ### Link to test page: https://www67.myfantasyleague.com/2020/ajax_ls?L=51962&TEST_WEEK=1
 
