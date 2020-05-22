@@ -30,4 +30,4 @@ All credit goes to TOS, Habman, Sticks, https://www.dagrafixdesigns.com and http
 
 Forum post made by TOS explaining setup within MyfantasyLeague: http://forums.myfantasyleague.com/forums/index.php?showtopic=37560
 
-Original Scoreboard example page (not fully populated as of winter 2020): https://www63.myfantasyleague.com/2020/ajax_ls?L=43570
+Original Scoreboard example page (not fully populated as of winter 2020): https://www63.myfantasyleague.com/2020/ajax_ls?L=43570&TEST_WEEK=1
