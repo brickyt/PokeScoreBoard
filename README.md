@@ -1,7 +1,7 @@
 # PokeScoreBoard
 Goal: To combine my Google Sheet scoreboard (https://i.imgur.com/Ldmrb7P.png) with a custom scoreboard (https://i.imgur.com/JKv6QtD.png) for the Pokemon Dynasty League.
 
-### Link to test page: https://www67.myfantasyleague.com/2020/ajax_ls?L=51962
+### Link to test page: https://www67.myfantasyleague.com/2020/ajax_ls?L=51962&TEST_WEEK=1
 
 ## Specific changes that are needed:
    - [ ] Add a column that displays associated TYPE with player (based on NFL team, see NFLTypeMap.js) OR display TYPE next to player name with image ala https://brickyt.github.io/playerBadgeScript/index.js
@@ -24,7 +24,7 @@ Goal: To combine my Google Sheet scoreboard (https://i.imgur.com/Ldmrb7P.png) wi
 
 ## Stretch Goals
 - [ ] CSS edits to make pretty
-- [ ] Rotom visuals
+- [ ] Rotom visuals?
 
 All credit goes to TOS, Habman, Sticks, https://www.dagrafixdesigns.com and https://nitrografixx.com/
 
