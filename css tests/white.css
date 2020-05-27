@@ -1,0 +1,2527 @@
+
+
+
+
+
+/*  MFL RESPONSIVE MENU
+========================= */
+li.mfl-icon img {
+    display: none;}
+.myfantasyleague_menu {
+    border-bottom-color: rgba(0, 0, 0, 0) !important;}
+.myfantasyleague_menu, .myfantasyleague_menu ul, .myfantasyleague_menu ul li ul {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;}
+.myfantasyleague_menu ul ul li {
+    background-color: rgba(0, 61, 131, 0.8) !important;
+}
+
+.myfantasyleague_menu > ul > li.has-sub > a::after {
+    border-top-color: #fff;}
+.myfantasyleague_menu ul ul > li.has-sub > a::after {
+    border-left-color: #fff;}
+.myfantasyleague_menu > ul > li.has-sub:hover > a::after {
+    border-top-color: #fff;}
+.myfantasyleague_menu ul ul > li.has-sub:hover > a::after {
+    border-left-color: #fff;}
+.myfantasyleague_menu ul li a, .myfantasyleague_menu ul li:hover ul li a, .myfantasyleague_menu ul li ul li:hover ul li a {
+    color: #ffffff;
+    font-family: "Oswald",sans-serif !important;
+    font-size: 10.6pt !important;
+    font-weight: 400 !important;}
+.myfantasyleague_menu ul li:hover a, .myfantasyleague_menu ul li ul li:hover a, .myfantasyleague_menu ul li ul li ul li:hover a {
+    color: #ffffff;}
+.myfantasyleague_menu li:hover > a {
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: none;
+    text-decoration: none !important;}
+div.myfantasyleague_menu > ul > li.has-sub.sub-default > a {
+    background-image: none;}
+div.myfantasyleague_menu > ul > li > a.no-sub {
+    background-image: none;}
+
+
+.myfantasyleague_menu ul li ul li:hover > a {
+    background-color: rgba(0, 61, 131, 0.9) !important;
+    background-image: url("https://dagrafixdesigns.com/Images/2008/DA_2017/WR_Skin/digit-bottom1.png");
+    background-size: 100% auto;
+    border-bottom: 2px solid #fff !important;
+    color: #fff !important;
+    transition: color 0.3s ease-in 0s !important;
+}
+
+.myfantasyleague_menu li.player-search input[type="text"] {
+    color: #222222;}
+.myfantasyleague_menu li.player-search a:hover {
+    color: #eeeeee;}
+.myfantasyleague_menu ul li ul {
+    border-top: 6px solid #fff !important;
+}
+
+.myfantasyleague_menu ul ul li a, .myfantasyleague_menu ul ul li.has-sub a {
+    border-bottom: 2px solid transparent;}
+.myfantasyleague_menu ul ul li.has-sub li:first-of-type {
+    border-top-color: #222222 !important;}
+.myfantasyleague_menu li:hover > a {
+    background-color: transparent;}
+
+/**.myfantasyleague_menu {
+    background-color: #003d83 !important;
+    background-origin: padding-box;
+    border-bottom: 6px solid rgba(0, 77, 166, 0.9) !important;
+    border-top: 6px solid rgba(0, 77, 166, 0.9) !important;
+    box-shadow: 0 0 20px 4px rgba(25, 25, 25, 0.2) inset !important;
+    height: 3.1rem !important;
+}
+**/
+
+.myfantasyleague_menu {
+    background-color: #003d83 !important;
+    background-origin: padding-box;
+    border-bottom: 6px solid #fff !important;
+    border-top: 6px solid #fff !important;
+    box-shadow: 0 0 20px 4px rgba(25, 25, 25, 0.2) inset !important;
+    height: 3.1rem !important;
+}
+
+
+.myfantasyleague_menu li a {
+    line-height: 2.4rem;}
+.myfantasyleague_menu ul ul li a, .myfantasyleague_menu ul ul li.has-sub a {
+    border-color: rgba(90, 90, 90, 0.06) !important;}
+
+.myfantasyleague_menu ul ul li:hover > ul {
+    margin-top: -2.86rem;}
+.myfantasyleague_menu ul ul li:first-of-type:hover > ul {
+    margin-top: -2.8rem;}
+.myfantasyleague_menu ul li:hover > ul {
+    top: 2.4rem !important;}
+
+
+
+
+
+/*   MFL RESPONSIVE TABS
+=========================== */
+.myfantasyleague_tabmenu ul#homepagetabs {
+    border-bottom: 0.355rem solid #004ba2;
+    border-top: 0.355rem solid #004ba2;
+}
+.myfantasyleague_tabmenu {
+    background: rgba(245, 245, 245, 0.9) none repeat scroll 0 0;
+    box-shadow: 0 0 0.625rem rgba(0, 61, 131, 0.5);}
+
+.myfantasyleague_tabmenu #homepagetabs li {
+    border-right-color: rgba(0, 49, 106, 0.99);
+}
+
+
+.myfantasyleague_tabmenu #homepagetabs li a {
+     border-right-color: rgba(0, 49, 106, 0.8);
+     color: #00316a;}
+
+.myfantasyleague_tabmenu #homepagetabs li:hover {
+     background-color: #004ba2;
+     box-shadow: none;}
+
+.myfantasyleague_tabmenu #homepagetabs li:hover a {
+     color: #ffffff;}
+
+.myfantasyleague_tabmenu #homepagetabs li.currenttab a {
+    background: transparent none repeat scroll 0 0 !important;
+    color: #fff;
+}
+
+
+.myfantasyleague_tabmenu #homepagetabs li.currenttab, .myfantasyleague_tabmenu #homepagetabs li.currenttab:hover {
+    background-color: #004ba2;
+    background-image: none;
+    box-shadow: none;
+}
+
+
+.myfantasyleague_tabmenu #homepagetabs li a {transition: none 0s ease 0s;}
+
+
+.myfantasyleague_tabmenu, .myfantasyleague_menu, .myfantasyleague_tabmenu #homepagetabs li a {
+    font-family: "Oswald",sans-serif;
+    font-weight: 400;font-size: 11pt;
+    text-decoration: none !important;
+    text-transform: uppercase;
+}
+
+
+
+
+/*  WARNING FOR BANNER LOADING ON THIS SKIN 
+============================================= */
+#options_35 tr:last-of-type td:last-of-type:before{
+     content:"THE SKIN YOU HAVE SELECTED DOES NOT ALLOW BANNER IMAGES TO DISPLAY, PLEASE USE THE LOGO UPLOAD INSTEAD";
+     display:table;color:red;
+}
+
+#options_35 tr:nth-last-child(2) td:nth-child(even):before{
+     content:"THE SKIN YOU HAVE SELECTED DOES NOT ALLOW BANNER IMAGES TO DISPLAY, PLEASE USE THE LOGO UPLOAD INSTEAD";
+     display:table;color:red;
+}
+
+
+
+
+
+/*  HTML 
+========== */
+
+html {
+     height: 100%;
+     margin: 0;
+     width: 100%;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+     font-size:100%;
+     background:#;
+     padding:0;
+}
+
+*, *:before, *:after {
+     -webkit-box-sizing: inherit;
+     -moz-box-sizing: inherit;
+     box-sizing: inherit;
+}
+
+
+
+
+/*  RESET MFL BASE CSS UL AND UL LI FOR ZOOM 
+============================================== */
+
+ul li {
+     margin-left:-20px;
+     margin-left:-1.250rem;
+}
+
+.report td ul li,#commissioner_setup table td ul li {
+     margin-left:0;
+}
+
+.report td ul,#commissioner_setup table td ul{
+     padding-left:19px;
+     padding-left:1.2rem;
+}
+
+form .report td ul {
+     padding-left:0;
+}
+
+
+
+
+/*  BODY LAYOUT
+================ */
+
+body {
+    background-color: #f5f5f5 !important;
+    background-image: url("");
+    background-repeat: repeat;
+    color: #003d83;
+    font: 400 11pt "Oswald",sans-serif!important;
+    margin: 0 auto;
+    text-rendering: optimizelegibility !important;}
+
+
+
+/*  FONTS
+=========== */
+
+a:active,a:visited,a:link {
+     text-decoration:underline;
+}
+
+
+
+
+/*  PAGEBODY AND PAGEHEADER
+============================= */
+
+.pagebody {
+     background:none!important;
+     min-height: 850px;min-height:53.125rem;
+     padding: 0px
+     margin:0 auto;
+     margin-bottom: 0px;
+     overflow:hidden;
+     margin-top:0;
+}
+
+
+
+#chat.pagebody {
+     min-height:0;
+} 
+
+.pagebody a {
+     background:none;
+}
+.pagetitle h1 {display:none;}
+.pagetitle h1 {font:400 20pt "Oswald",sans-serif;}
+.pagetitle {display: none;}
+.pageheader {display: none;} 
+.welcome {display: none;} 
+
+
+/**.pageheader {
+    background: #181818;
+    border-bottom: 8px solid rgba(42, 110, 187, 0.9) !important;
+    margin-bottom: 0.785rem;
+    padding-top: 1.0rem;padding-bottom: 1.0rem;height:200px;}
+
+
+.pageheader {
+     color: #bcbcbc;
+     font-size: 12px;font-size: 0.750rem;
+     position: relative;
+     width: 100%;
+     padding:5px 0;padding:0.313rem 0;
+}
+
+
+.pageheader:before {
+     content:"";
+     display:block;
+     height:150px;height:9.375rem;
+     width:100%;
+     background-image:url();
+     background-repeat:no-repeat;
+     background-size:contain;
+     max-width:1160px;max-width:72.500rem;
+     margin:0 auto;
+     background-position:center left;
+}
+*****/
+
+
+.pageheader a:link, .pageheader a:active, .pageheader a:visited {
+     color: #fff;
+}
+
+.pageheader a:link:hover, .pageheader a:active:hover, .pageheader a:visited:hover {
+     color: #bcbcbc;
+}
+
+.brandlogo {
+     display: none;
+}
+
+.pagetitle {
+     width: 100%;  
+     max-width:1160px;max-width:72.500rem;
+     display:block;
+     margin:0 auto;
+     position:absolute;
+     z-index:1;
+     bottom:5px;bottom:0.313rem;
+     left:0;
+     right:0;
+     top: 58px;top:3.625rem;
+}
+
+.pagetitle span {
+     position:absolute;
+     font-size:14px;font-size:0.875rem;
+     right:0;
+     font-style:italic;
+     left:0;
+     top:-4px;top:-0.250rem;
+     color:#bcbcbc;
+}
+
+.pagetitle h1 {
+     font-size:32px;font-size:2.000rem;
+     text-transform: uppercase;
+     text-align:left;
+     text-indent:160px;text-indent:10.000rem;
+     color:#fff;
+     text-shadow: 1px 1px 2px #002043;text-shadow: 0.063rem 0.063rem 0.125rem #002043;
+}
+
+.bannerimage {
+     display:none;
+}
+
+.pageheader td.hplink {
+     padding:0;
+     margin:0;
+     border:0;
+     display:block!important;
+}
+
+.pageheader td.hplink a {
+     position: absolute;
+     top: 0;
+     left: 0;
+     background:none;
+     width: 100%;
+     height: 100%;
+     z-index: 2;
+     font-size:0;
+}
+
+.leaguelogo,.bannerimage img {
+     padding:4px 1px 6px 1px;padding:0.375rem 0.063rem 0.375rem 0.063rem;
+     max-width:100%;
+     margin-bottom:5px;margin-bottom:0.313rem;
+     margin-top:5px; margin-top:0.313rem;
+}
+
+.welcome {
+     position: absolute;
+     right: 0;
+     top:0;
+     width: 100%;
+     display: inline;
+     text-align: right;
+     padding: 2px;padding: 0.125rem;
+     padding-right: 10px;padding-right: 0.625rem;
+     border:0;
+     background:#ddd;
+     z-index:3;
+     background:none;
+     box-shadow:none;
+     border:none;
+}
+
+.welcome br,.welcome small {
+     display:none;
+}
+
+
+
+
+/*  PAGEFOOTER
+================ */
+.pagefooter {display: none;}
+
+.pagefooter {
+     background: rgba(0,0,0,.7);
+     color: #bcbcbc;
+     width: auto ! important;
+     border-top:14px solid #505050;border-top:0.875rem solid #505050;
+     padding:10px 0;padding:0.625rem 0;
+     font-size:11px;font-size:0.688rem;
+}
+
+.pagefooter a:link, .pagefooter a:active, .pagefooter a:visited {
+     color:#FFF;
+}
+
+.pagefooter a:link:hover, .pagefooter a:active:hover, .pagefooter a:visited:hover {
+     color: #bcbcbc;
+}
+
+
+
+
+/*  HOMEPAGE COLUMNS AND TABS
+=============================== */
+
+.homepagetabcontent .report {
+     width: 100% ! important;
+}
+
+.homepagecolumn .homepagemodule {
+     margin-bottom: 15px;margin-bottom:0.938rem;
+     width: 100%;
+}
+
+#homepagecolumns {
+    width: 100%;
+    table-layout:fixed;
+}
+
+
+
+
+/*  SCROLL LONG REPORTS
+========================= */
+
+div.mobile-wrap {
+     max-width:100%;
+     margin-bottom:15px;margin-bottom:0.938rem;
+     border-radius:3px;border-radius:0.188rem;
+     -moz-border-radius:3px;-moz-border-radius:0.188rem;
+     -webkit-border-radius:3px;-webkit-border-radius:0.188rem;
+     overflow: hidden;
+     overflow-x: auto;
+     padding:0;
+     background: none;
+}
+
+div.mobile-wrap caption, div.mobile-wrap .homepagemodule caption, div.mobile-wrap .homepagecolumn .homepagemodule caption {
+      border-left:0;border-right:0;border-top:0;
+     -moz-border-radius-topleft: 0;-webkit-border-top-left-radius: 0;border-top-left-radius: 0;-moz-border-radius-topright: 0;-webkit-border-top-right-radius: 0;border-top-right-radius: 0;
+     box-shadow:none;
+}
+
+div.mobile-wrap .report,div.mobile-wrap #monthly_calendar,div.mobile-wrap .playoffbracket {
+      border:0;margin-bottom:0;border-radius:0;-moz-border-radius:0;-webkit-border-radius:0; background-clip: padding-box;
+}
+
+div.mobile-wrap, .playoffbracket, .report, #monthly_calendar {
+    background: rgba(0, 61, 131, 0.05) none repeat scroll 0 0;
+    border: 0.063rem solid rgba(0, 61, 131, 0.7);
+    box-shadow: 0 0 0.425rem rgba(0, 61, 131, 0.5);
+}
+
+
+.report, .playoffbracket, #monthly_calendar {
+    border-radius: 0.188rem;
+    padding: 0.275rem 0.125rem 0.125rem;
+}
+
+
+div.mobile-wrap:empty{
+      border:0;margin:0;border-radius:0;background:none;box-shadow:none;
+}
+
+
+
+
+/*  CAPTIONS AND TH
+===================== */
+
+caption, .homepagemodule caption, .homepagecolumn .homepagemodule caption {
+    background: #003d83 none repeat scroll 0 0;
+    border-color: rgba(0, 61, 131, 0.3) rgba(0, 61, 131, 0.3) #f5f5f5;
+    border-image: none;
+    border-style: solid;
+    border-top-left-radius: 0.188rem;
+    border-top-right-radius: 0.188rem;
+    border-width: 0.063rem 0.063rem 0.4rem;
+    box-shadow: 0 0 0.625rem rgba(0, 61, 131, 0.5);
+    color: #fff;
+    cursor: default;
+    font-size: 1.063rem;
+    line-height: 2.375rem;
+    margin-bottom: -0.213rem;
+    padding: 0;
+    text-align: left;
+    text-transform: uppercase;
+    width: auto;
+}
+
+caption span {
+     background:none;
+     padding-left:8px;padding-left:0.500rem;
+}
+
+#options_07 span.ownername {
+     padding:0;
+     background:none;
+     font-size:70%;
+     color:#ddd;
+}
+
+caption a:link, caption a:active, caption a:visited {
+     color: #fff!important;
+     text-decoration:underline;
+}
+
+caption a img, th a img, h3 a img {
+     vertical-align: middle;
+}
+
+caption a:hover, caption a:link:hover, caption a:active:hover, caption a:visited:hover {
+     color: #ddd ! important;
+}
+
+
+caption > span.module_expand {
+    color: #fff;
+    font-size:16px;font-size: 1rem;
+    margin-top: -2px;
+    position: absolute;
+    right: 2px;
+}
+
+
+caption > span.module_expand:hover {
+     color: #ddd;
+}
+
+
+
+
+
+th {
+    background: #003d83 none repeat scroll 0 0;
+    border-bottom: 0.355rem solid #fff;
+    border-right: 0 none;
+    color: #fff;
+    font: 400 11pt "Oswald",sans-serif !important;
+    padding: 0.125rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+th:first-of-type {
+     border-left:0;
+}
+
+th a:link, th a:active, th a:visited,th.articlecaption a:active,th.articlecaption a:link,th.articlecaption a:visited {
+     color:#ddd;
+}
+
+th a:link:hover, th a:active:hover, th a:visited:hover,th.articlecaption a:hover {
+     color: #fff;
+}
+
+.oddtablerow th,.eventablerow th {
+     border:0;
+}
+
+
+
+
+/*  TABLE ROWS AND CELLS
+========================== */
+
+.oddtablerow a:link, .oddtablerow a:active, .oddtablerow a:visited, .oddtablerow, #body_depth_chart .report b a:hover, .eventablerow a:link, .eventablerow a:active, .eventablerow a:visited, .eventablerow {
+    color: #003d83;
+}
+
+
+.oddtablerow a:hover, .eventablerow a:hover,#body_depth_chart .report b a {
+     color: #fff;
+     text-decoration:underline;
+}
+
+
+
+.oddtablerow td {
+    border: 1px solid #003d83;
+    box-shadow: 0 0 0.3px 0 #0a2c53 inset;
+    font-weight: 400;
+    padding: 2px;
+}
+.eventablerow td {
+    border: 1px solid #003d83;
+    box-shadow: 0 0 0.3px 0 #0a2c53 inset;
+    font-weight: 400;
+    padding: 2px;
+}
+.oddtablerow {
+    background: #e6edf6 none repeat scroll 0 0;
+    color: #003d83;
+}
+.eventablerow {
+    background: #f5f5f5 none repeat scroll 0 0;
+    color: #003d83;
+}
+.oddtablerow:last-of-type td, .eventablerow:last-of-type td {
+    border-bottom:;
+}
+
+
+
+
+/*  FONT COLORING
+=================== */
+
+a:link, a:active, a:visited {
+     color: #1362be;
+}
+
+a:link:hover, a:active:hover, a:visited:hover, a:hover {
+     color: #1362be;
+}
+
+.warning, th.warning, body div.hint {
+    color: #c10000;
+    font-size: 10.4pt;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+.oddtablerow td.status span.freeagent,.eventablerow td.status span.freeagent {
+     color: red;
+}
+
+A:link img, A:visited img {
+     border-color: transparent;
+}
+
+A:hover img {
+     border-color: transparent;
+}
+
+a:active {
+     background: none repeat scroll 0 0 transparent;
+}
+
+h2 {
+    background: rgba(0, 61, 131, 0.99) none repeat scroll 0 0;
+    color: #fff;
+    font-size: 0.875rem;
+    margin: 0.625rem 0;
+}
+
+#article h2,#options_73 .report h2 {
+     background: none;
+     color: #fff;
+     margin: 10px;margin:0.625rem;
+}
+
+h2 a:link, h2 a:active, h2 a:visited,h2 a:link:hover, h2 a:active:hover, h2 a:visited:hover {
+     color:#FFF;
+     text-decoration:underline;
+}
+
+h3 {
+    border: medium none;
+    color: #003d83;
+    font-size: 1rem;
+    margin-bottom: 0.375rem;
+    margin-top: 0.25rem;
+    padding: 0.25rem;
+    text-transform: uppercase;
+}
+
+h3 a:link, h3 a:visited, h3 a:active {
+    color: #003d83;
+}
+
+h3 a:link:hover, h3 a:visited:hover, h3 a:active:hover , h3 a:hover{
+     color: #1362be;
+}
+
+#my_options li  {
+     color: #3a85da;
+}
+
+/*   Tooltip  */
+abbr {
+    color: #0b2748;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+#tooltip {
+     background:rgba(0,0,0,.8)!important;
+     font-size:14px;font-size:0.875rem;
+     border-radius:3px;border-radius:0.188rem;
+}
+
+#tooltip:after {
+     border-top-color:rgba(0,0,0,.8)!important;
+}
+
+#tooltip.top:after {
+     border-top-color:rgba(0,0,0,.8)!important;
+}
+
+span[style="color: #0000ff;"],span[style="font-size: 14pt; color: #008000;"]{
+     color:#003d83!important;
+} 
+
+#countdown3,#countdown3 + h3,#countdown1,#countdown1 + h3,#countdown2,#current_system_timestamp,#auction_countdown h3 {
+     color:#003d83;
+}
+
+
+
+
+
+/*  MY FRANCHISE COLORING
+=========================== */
+
+tr.myfranchise { 
+     background: rgba(225,225,225,.1);
+}
+
+a.myfranchise,a.myfranchise:link,a.myfranchise:visited,a.myfranchise:active {
+     color:#3a85da;
+     text-transform:uppercase;
+}
+
+
+
+
+
+/*  REPORTS AND TABLE SIZING
+============================== */
+
+.report {
+    background: rgba(10, 74, 147, 0.05);
+    text-align: left;
+}
+
+
+#standings,td,tbody,.report,.scoresummary{
+     border-spacing:0!important;
+}
+
+.playoffbracket, #home .playoffbracket, #monthly_calendar, #home #monthly_calendar, .pagebody table, #monthly_calendar, .report, td.two_column_layout table, table.two_column_layout, #player table, table#youtubevideo.homepagemodule.report embed {
+     width: 100%;
+}
+
+table.scoresummary, table.h2hmatchups, table.report td.two_column_layout, table.two_column_layout .two_column_layout {
+     width:50%;
+}
+
+table.articlepicturetable {
+    width:auto;
+}
+
+table.two_column_layout {
+     border-spacing: 0;
+     padding: 0!important;
+}
+
+table.two_column_layout {
+     border-spacing: 0px;margin:0 auto! important;
+     padding: 0px ! important;
+}
+
+table.two_column_layout .two_column_layout {
+     padding-left: 0;
+     padding-right: 5px;padding-right:0.313rem;
+}
+
+table.two_column_layout .two_column_layout:last-child {
+     padding-right: 0;
+}
+
+table.report td.two_column_layout {
+     padding-left: 0;
+     padding-right: 5px;padding-right:0.313rem;
+}
+
+table.report td.two_column_layout:last-child {
+     padding-right: 0;
+}
+
+div#options_31.pagebody table:last-child {
+     border-spacing: 0;
+}
+
+#body_player td.player_photo{
+     padding:10px;padding:0.625rem;
+}
+
+#my_options li {   
+     padding: 2px;padding:0.125rem;
+}
+
+#body_live_scoring th,#body_live_scoring_summary th,#body_options_101 th.franchisename,#body_options_08 th.status,#body_options_03 .report th,#body_options_16 .matchup,.pooltab td:first-of-type,#options_153 .report td:first-of-type,#options_232 .report td.franchisename,#options_156 .report td.franchisename,#options_204 .report td.franchisename,#options_208 .report td.franchisename,#options_158 .report td.franchisename,#options_157 .report td.player,#options_157 .report td.status,#body_free_agents .report td.player,#body_free_agents .report td:nth-child(3),#bbid_summary td.franchisename,#season_records td.franchisename,#record_streaks td.franchisename,#franchise_records td.franchisename,#player_records td.player,#body_options_07 .report td.player,#body_options_49 .report td:nth-child(2),#body_options_49 .report td:first-of-type,#options_171 .report td:first-of-type,#body_options_23 .report td:first-of-type,#options_08 .report .player,#body_top .report .player,#body_player .biography td,#body_options_236 .report td.player,#body_options_08 .report td.status,#brief_standings td.fname, #brief_standings th.fname, #standings td.fname, #standings th.fname, #standings td.ficonname, #standings th.ficonname, #brief_standings th.ficonname,#bar_chart th.franchisename,#news_articles th.headline,#power_rank th.franchisename,#transactions th.franchisename,#weekly_summary .franchisename,#nfl_confidence_pool th:first-of-type,#nfl_confidence_pool td:first-of-type,#body_options_20 .report th.franchisename,#nfl_survivor_pool th:first-of-type,#fantasy_confidence_pool th:first-of-type,#fantasy_confidence_pool td:first-of-type,#poll_summary th:first-of-type,#my_bye_weeks th,#weekly_mvp_starters th:first-of-type,#weekly_mvp th:first-of-type,#my_watch_list th,#weekly_fantasy_articles th,#all_my_leagues th,#league_links th,#my_links th,#franchise_records th.franchisename,#season_records th.franchisename,#player_records th.franchisename,#player_records .status,#bbid_summary th.franchisename,#top_starters .player,#top_owns .player,#top_survivor_picks th:first-of-type + th,#draft_tracker th:first-of-type + th,#my_draft_list th:first-of-type + th,#waiver_order .franchisename,#article_summary th,#my_draft_picks th,#my_draft_picks td:last-of-type,#recent_draft_picks th,#recent_draft_picks td:last-of-type,#average_auction_values th:first-of-type + th,#bar_chart th,#player_records .player,#top_adds .player,#top_drops .player,#hot_news .player,#top_performers .player,#top_fa .player,#my_news th,#roster .player,#news_articles .timestamp,#twitter_feed th,#league_champions th.rank + th,#record_streaks th.franchisename,#my_trophy_case th,#transactions th,#trade_bait th,#options_54 .report th:first-of-type,#options_07 .report tr:first-of-type .player,#options_07 .report tr th,#options_105 .report th,#options_138 .report th:first-of-type,#body_nfl_team_stats .report td:first-of-type,#body_nfl_team_stats .report th:first-of-type,#body_depth_chart .report th,#body_injury .report th,#body_options_156 th.franchisename,#options_06 .two_column_layout .report th,#body_options_169 .two_column_layout .report .player,#body_options_169 .two_column_layout .report .points + th,#body_accounting_report .report th,#body_accounting_report .report td,#body_options_118 .report .player,#body_options_118 .report th:first-of-type,#body_options_118 .report + .report td,#body_fantasy_box_score .report td:first-of-type,#body_fantasy_box_score .report th:first-of-type,#body_board_show .report th,#body_board_show .report td,#body_options_202 th,#options_194 .report .rank + th,#body_options_208 .report .franchisename,#body_options_171 .report th:first-of-type,#body_options_158 .report th.franchisename,#options_157 .report .player,#options_157 .report .status,#body_options_31 .report .franchisename,#body_options_119 .report th:first-of-type,#options_153 th:first-of-type,#body_options_81 .report .rank + th,#body_options_81 .report .rank + td,#lineup .report td:first-of-type,#lineup .report td:first-of-type + td,#lineup .report th:first-of-type + th,#lineup .report th:first-of-type + th + th,#body_pro_matchup .report td:first-of-type,#body_pro_matchup .report  tr:nth-child(2) > th:nth-child(1),#body_options_215 .report th,#body_player .biography.report + .report th,#body_player #player_stats_table td,#body_tweets .report th,blockquote,#who_should_i_start .player,#standings .ficon {
+     text-align:left;
+}
+
+#body_live_scoring .points,#body_live_scoring_summary .teamscoresummary th:last-of-type,#body_live_scoring_summary .teamscoresummary .points,#body_options_16 .week,#body_options_03 .report .rank,#top_survivor_picks td:first-of-type,#roster .contractyear,#roster .contractstatus,#options_17 .report .timestamp,#options_202 .report .year,#options_202 .reportfooter,#options_194 .report .rank,#options_232 .report td,#options_156 .report td,#options_208 .report td,#options_204 .report td,#body_options_23 .report td,#options_158 .report td,#options_157 .report td,#options_232 .report .rank,#options_156 .report td.rank,#nfl_confidence_pool .reportfooter td,#options_208 .report th.rank,#options_204 .report th.rank,#options_158 .report .rank,#options_157 .report .rank,#options_171 .report td,#body_free_agents .report td,#options_187 .contractyear,#options_187 .contractstatus,#options_187 .contractinfo,#bbid_summary td,#season_records td,#record_streaks td,#franchise_records td,#player_records td,#hot_news .reportfooter,#body_options_151 .report td,#hot_news td.points,#hot_news td.rank,#draft_tracker td.rank,#options_153 .report td,#body_options_07 .report td,#recent_draft_picks td[align="right"],.pooltab td,#my_draft_picks td[align="right"],#body_options_170 .report td,#options_17 .report td.rank,#options_117 .report td.rank,#options_117 td[align="right"],#body_options_49 .report tr:last-of-type td:first-of-type,table#youtubevideo.homepagemodule.report embed,#my_watch_list .reportfooter,#fantasy_confidence_pool .reportfooter td,#body_news_articles .report td.timestamp,#body_news_articles .report td.rank,#body_options_49 .report td,#body_options_09 .report td.test,#player_search form,#body_options_20 .report td.points,#body_options_215 .report td:first-of-type,#body_options_09 .report td.edit,#options_08 .report td,#body_top .report td,#youtubevideo td,#power_rank td+td,#body_options_101 .report td+td,#body_options_20 .report td.points,#body_options_151 .report td:first-of-type,#body_options_119 .report td+td,#body_options_236 .report td,#standings td, #standings th, #brief_standings td, #brief_standings th,#bar_chart .points,#transactions .rank,#weekly_summary td,#nfl_confidence_pool td,#nfl_confidence_pool tr.reportfooter td,#nfl_survivor_pool .reportfooter,#fantasy_confidence_pool td,#fantasy_confidence_pool tr.reportfooter td,#franchise_schedule .week,#average_auction_values .rank,#poll_summary td.poll_voted,#weekly_mvp_starters .points,#weekly_mvp .points,#my_watch_list th:last-of-type,#my_watch_list td.points,#top_starters .rank,#top_starters td[align="right"],#top_owns .rank,#top_owns td[align="right"],#top_survivor_picks td:last-of-type,#my_draft_list .points,#waiver_order .rank,#my_draft_picks th:first-of-type,#recent_draft_picks tr.reportfooter td,#my_draft_picks tr.reportfooter td,#recent_draft_picks th:first-of-type,#top_adds .rank,#top_adds td:last-of-type,#top_drops .rank,#top_drops td:last-of-type,#top_performers .rank,#top_performers .points,#top_fa .rank,#top_fa .points,#league_champions .rank,#my_trophy_case .year,#trade_bait th:last-of-type,#trade_bait td:last-of-type,#roster .points,#roster .week,#options_07 .report tr:first-of-type th,#options_07 .report td,#options_138 .report td.points,#options_138 .report th:first-of-type.player,#body_depth_chart .report th:nth-child(1),#body_depth_chart .report th:nth-child(2),#body_depth_chart .report td:nth-child(1),#body_depth_chart .report td:nth-child(2),#body_nfl_team_stats .report tr th:last-of-type,#body_nfl_team_stats .report td,#body_options_169 .two_column_layout .report .points,#body_accounting_report .report td.salary,#body_accounting_report .report th.debit,#body_accounting_report .report th.credit,#body_options_118 .report td,#body_options_118 .report + .report td:first-of-type,#body_fantasy_box_score .report td,#body_fantasy_box_score .report th,#body_fantasy_box_score .report td:first-of-type.points,#body_options_31 .report td,#body_options_81 .report td,#lineup .report td,#body_pro_matchup .report td,#body_pro_matchup .report th,#body_options_215 .report th:first-of-type,#body_player #player_stats_table th,#body_player #player_stats_table td.points,#body_player #player_stats_table td.week,#body_player .biography.report + .report + .report td,#body_player #player_stats_table .reportfooter,#who_should_i_start .points,#body_player .biography.report + .report td.reportfooter {
+     text-align:center;
+} 
+
+#body_live_scoring_summary .teamscoresummary .total th,#body_live_scoring_summary .teamscoresummary .players_yet_to_play th,#body_live_scoring_summary .teamscoresummary .players_currently_playing th,#body_live_scoring_summary .teamscoresummary .player_minutes_remaining th,#body_player .biography.report th {
+     text-align:right;
+     padding-right:4px;padding-right:0.250rem;
+}
+
+#options_153 .report td:last-of-type {
+     color: #3a85da;
+}
+
+#article iframe {
+     max-width:460px;max-width:28.750rem;
+}
+
+#livescoring_summary td.points, #last_weeks_fantasy_results td.points, #body_options_15 td.points, #franchise_schedule .points, #options_16 td.points, #body_options_169 .two_column_layout .report td.points {
+    color: #003d83;
+    font-size: 0.938rem;
+}
+
+#body_options_20 .report td.points,#body_options_151 .report td:first-of-type {
+     font-size:17px;font-size:1.063rem;
+     color: #3a85da;
+}
+
+#owner_activity td.franchisename {
+     color: #003d83;
+}
+
+#options_22 .scoresummary {
+     margin-bottom: 10px;margin-bottom: 0.625rem;
+}
+
+#youtubevideo embed,#trash_talk_video{
+     width:auto!important;
+     max-width:98%!important;
+     margin:10px auto;margin:0.625rem auto;
+     background:transparent;
+}
+
+#todays_league_news tr.to_be_decided:first-of-type th:first-of-type,#todays_league_news tr.in_the_books th[colspan="2"],
+#monday_night tr.to_be_decided:first-of-type th:first-of-type,#monday_night tr.in_the_books th[colspan="2"]  {
+     font-size:12px;font-size:0.750rem;
+     border-bottom:2px solid #3a85da;border-bottom:0.125rem solid #3a85da;
+}
+
+.total_salary_row th,.salary_cap_row th,.cap_room_available_row th {
+     font-size:100%;
+}
+
+
+
+
+/*  PLAYER PHOTOS AND ARTICLE IMAGES
+====================================== */
+#my_player_photos td img {
+    border: 0.1875rem solid #003d83;
+    height: auto;
+    margin: 0 auto;
+    outline: 0.0625rem solid #fff;
+    width: 100%;
+}
+
+
+#my_player_photos td img {
+     max-width: 100px;max-width: 6.250rem;
+}
+
+td.player_photo img {
+    border: 0.1875rem solid #003d83;
+    outline: 0.0725rem solid #003d83;
+}
+
+
+
+/*  MESSAGE BOARD
+=================== */
+
+#board_show td {
+     vertical-align: top;
+}
+
+#body_board_show th.messageboardbar {
+    background: rgba(0, 61, 131, 0.99) none repeat scroll 0 0;
+    border: 0 none;
+    color: #fff;
+    display: block;
+    font-size: 0.875rem;
+    margin-bottom: 0.0625rem;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+
+#body_board_show th.messageboardbar + td {
+    background: rgba(0, 61, 131, 0.99) none repeat scroll 0 0;
+    float: left;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+
+
+#body_board_show th.messageboardbar a {
+     color:#FFF; 
+     text-decoration:underline;
+      border-radius:3px;border-radius:0.1875rem;
+     padding:4px;padding:0.25rem;
+     margin:0 5px;margin:0 0.3125rem;
+     line-height:24px;line-height:1.500rem;
+}
+
+#body_board_show th.messageboardbar a:hover {
+     color:#fff;
+}
+
+#body_board_show a.messageboardlink {
+     color:#fff;
+     padding:10px;padding:0.625rem;
+     text-decoration:none;
+}
+
+#body_board_show a.messageboardlink:hover {
+     text-decoration:underline;
+}
+
+
+
+
+/*  STANDINGS
+=============== */
+
+#standings h3, .homepagecolumns #standing h3, .homepagecolumn #standings h3, .homepagecolumn #brief_standings h3, #brief_standings h3 {
+    background-color: #003d83;
+    border: 0.125rem solid #fff;
+    color: #fff;
+    font-size: 1.188rem;
+    margin: 0.125rem 0 0.135rem;
+    position: relative;
+    text-transform: uppercase;
+}
+
+body .standingslogo {
+     max-width:100%;
+     max-height:100%;
+     margin:3px auto;margin:0.1875rem auto;
+}
+
+
+
+
+
+/*  MONTHLY CALENDAR
+====================== */
+
+#monthly_calendar {
+     border-collapse: separate ! important;
+     margin-bottom: 13px;margin-bottom: 0.8125rem;
+     text-align: left;
+}
+
+#monthly_calendar td {
+     border: 1px solid rgba(0,0,0,.1);border: 0.0625rem solid rgba(0,0,0,.1);
+     padding: 0;
+}
+
+#monthly_calendar th {
+     border:0;
+}
+
+#monthly_calendar .month_header th {
+    border-bottom: 0.1625rem solid #fff;
+    box-shadow: none;
+}
+
+
+#monthly_calendar .month_header th a {
+     color: #fff;
+}
+
+#monthly_calendar .day_of_week_header th {
+     box-shadow:none;
+}
+
+#monthly_calendar td .calendarday {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 61, 131, 0.9) !important;
+    background-image: url("https://www.dagrafixdesigns.com/SB16/img/digit-bottom.png");
+    background-origin: padding-box;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 2px solid #408feb;
+    border-left: 2px solid #408feb;
+    box-shadow: 0 0 12px 4px rgba(0, 61, 131, 0.5) inset !important;
+    color: #fff;
+    padding-bottom: 5px;
+    padding-top: 3px;
+}
+
+.calendarday {
+    width: 50px;
+}
+
+.calendarday a {
+     color: #ffffff ! important;
+     font-size: 16px;font-size: 1rem;
+}
+
+#monthly_calendar td.today {
+    border: 3px dotted rgba(0, 61, 131, 0.9) !important;
+    box-shadow: 0 0 9px 1px rgba(0, 61, 131, 0.5) inset !important;
+}
+
+.newposition td, .newposition th {
+    border-top: 3px solid #0076ff !important;
+}
+
+/*  COMMISSIONER SETUP PAGE
+============================= */
+
+#commissioner_setup table th {
+    background-color: rgba(0, 61, 131, 0.99);
+    background-position: 0.625rem center;
+    background-repeat: no-repeat;
+    background-size: auto 1.9rem;
+    color: #ffffff;
+    font-size: 1.063rem;
+    padding: 0.438rem 0;
+    text-align: left;
+    text-indent: 3.125rem;
+    text-transform: uppercase;
+}
+
+#commissioner_setup a:hover {
+    text-decoration: underline!important;
+}
+
+
+
+#commissioner_setup table td table {
+    background: rgba(0, 61, 131, 0.2) none repeat scroll 0 0 !important;
+    border: 1px solid rgba(0, 61, 131, 0.7);
+    box-shadow: 0 0 0.625rem rgba(0, 61, 131, 0.5);
+}
+
+
+#commissioner_setup table td {
+     border:0;
+}
+
+#commissioner_setup table li {
+     color: #3a85da;
+}
+
+#commissioner_setup th#recently_used {
+     background-image: url(https://dagrafixdesigns.com/Images/2008/DA_2017/DA_RSkin/Setup_Icons/recent.png);
+}
+
+#commissioner_setup th#general_setup {
+     background-image: url(https://dagrafixdesigns.com/Images/2008/DA_2017/DA_RSkin/Setup_Icons/setting_tools.png);
+}
+
+#commissioner_setup th#commissioner_franchise_setup {
+     background-image: url(https://dagrafixdesigns.com/Images/2008/DA_2017/DA_RSkin/Setup_Icons/commish_setup.png);
+}
+
+#commissioner_setup th#history_setup {
+     background-image: url(https://dagrafixdesigns.com/Images/2008/DA_2017/DA_RSkin/Setup_Icons/hourglass.png);
+}
+
+#commissioner_setup th#scoring_setup {
+     background-image: url(https://dagrafixdesigns.com/Images/2008/DA_2017/DA_RSkin/Setup_Icons/whistle.png);
+}
+
+#commissioner_setup th#players_and_rosters {
+     background-image: url(https://dagrafixdesigns.com/Images/2008/DA_2017/DA_RSkin/Setup_Icons/group.png);
+}
+
+#commissioner_setup th#adjust_scores {
+     background-image: url(https://dagrafixdesigns.com/Images/2008/DA_2017/DA_RSkin/Setup_Icons/numeric_stepper.png);
+}
+
+#commissioner_setup th#home_page_message_setup {
+     background-image: url(https://dagrafixdesigns.com/Images/2008/DA_2017/DA_RSkin/Setup_Icons/widgets.png);
+}
+
+#commissioner_setup th#salary_cap_setup {
+     background-image: url(https://dagrafixdesigns.com/Images/2008/DA_2017/DA_RSkin/Setup_Icons/chart_curve_edit.png);
+}
+
+#commissioner_setup th#use_with_caution {
+    background-color: rgba(255, 0, 0, 0.7);
+    background-image: url("https://dagrafixdesigns.com/Images/2008/DA_2017/DA_RSkin/Setup_Icons/error.png");
+}
+
+#commissioner_setup th#playoff_setup {
+     background-image: url(https://dagrafixdesigns.com/Images/2008/DA_2017/DA_RSkin/Setup_Icons/playoffs.png);
+}
+
+#commissioner_setup th#other_transactions_setup {
+     background-image: url(https://dagrafixdesigns.com/Images/2008/DA_2017/DA_RSkin/Setup_Icons/small_business.png);
+}
+
+#commissioner_setup th#waivers_setup {
+     background-image: url(https://dagrafixdesigns.com/Images/2008/DA_2017/DA_RSkin/Setup_Icons/arrow_refresh.png);
+}
+
+#commissioner_setup th#draft_setup {
+     background-image: url(https://dagrafixdesigns.com/Images/2008/DA_2017/DA_RSkin/Setup_Icons/events.png);
+}
+
+#commissioner_setup th#auction_setup {
+     background-image: url(https://dagrafixdesigns.com/Images/2008/DA_2017/DA_RSkin/Setup_Icons/auction_hammer_gavel.png);
+}
+
+#commissioner_setup th#fantasy_schedule_setup {
+     background-image: url(https://dagrafixdesigns.com/Images/2008/DA_2017/DA_RSkin/Setup_Icons/calendar_edit.png);
+}
+
+#commissioner_setup th#appearance_setup {
+     background-image: url(https://dagrafixdesigns.com/Images/2008/DA_2017/DA_RSkin/Setup_Icons/layout_edit.png);
+}
+
+
+
+
+/*  REPORT NAVIGAION STYLE
+============================ */
+
+span.reportnavigation {
+    color: #003d83;
+    margin: 0.625rem 0;
+    padding: 0;
+}
+.reportnavigationheader {
+    color: #003d83;
+}
+span.reportnavigation a {
+    color: #003d83;
+}
+.reportnavigation a:hover {
+    color: #1362be;
+    text-decoration: underline;
+}
+
+.reportnavigation .currentweek {
+    color: #003d83;
+    text-decoration: none;
+}
+
+
+
+/*  HOMEPAGE MESSAEGES
+======================== */
+
+.homepagemessage {
+     background: rgba(0,0,0,.5);
+     border-radius: 3px;border-radius: 0.1875rem;
+     text-align: left;
+     padding: 2px;padding: 0.125rem;
+     border: 4px double rgba(45, 45, 45, 0.3);border: 0.25rem double rgba(45, 45, 45, 0.3);
+     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.75);box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.75);
+}
+
+.homepagemessage span.warning, .homepagemessage h4.warning {
+     color: #cd2122;
+}
+
+.homepagemessage .reallysmall:hover {
+     background:none!important;
+}
+
+
+
+
+/*  CHAMPIONS PLAQUE 
+====================== */
+
+#championship_plaque .plaque {
+     text-align: center;
+}
+
+
+
+#championship_plaque .plaque div{
+     float:none;
+     display:inline-table;
+     margin:10px;margin:0.625rem;
+     background:transparent url(plaque-bg.png)no-repeat;
+}
+
+.plaqueframe div p {
+     color: #666666;
+     padding-top: 0.625rem;
+}
+
+.plaque div {
+     background: rgba(0, 0, 0, 0) url("https://dagrafixdesigns.com/Images/2008/DA_2017/WR_Skin/div.png") no-repeat scroll 0px 0px ! important;
+}
+
+.plaque {
+    background-color: rgba(0, 61, 131, 0.9) !important;
+    background-image: url("https://www.dagrafixdesigns.com/Images/2008/DA_2014/DA_White/Grafix/bg4.jpg") !important;
+    background-position: center center !important;
+    border-color: #003d83 !important;
+    border-image: none !important;
+    border-style: solid !important;
+    border-width: 4px !important;
+    box-shadow: 0 0 12px 1px rgba(0, 61, 131, 0.5) inset !important;
+    color: #999999;
+}
+
+#championship_plaque h2 {
+     background: rgba(0, 0, 0, 0) url("https://dagrafixdesigns.com/Images/2008/DA_2017/WR_Skin/plaquetitle_glass.png") no-repeat scroll center center;
+     border: 0px none;
+     text-indent: -9999px;
+}
+
+
+
+
+#championship_plaque h3 {
+    border: 0 none;
+    color: #118bea!important;
+    font-family: "Oswald";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    height: 28px;
+    text-shadow: 1px 1px 1px rgba(0, 61, 131, 0.2);
+    text-transform: uppercase;
+}
+
+
+#championship_plaque h4 {
+     border: 0px none;
+     font-family: "Oswald";
+     font-size: 11.4pt;
+     font-style: normal;
+     font-weight: 400;
+     height: 14px;
+     line-height: 1em;
+}
+
+#championship_plaque .plaque p {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #043165;
+    font-family: "Oswald";
+    font-size: 10.4pt;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: -3px;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 61, 131, 0.2);
+    text-transform: uppercase;}
+
+#championship_plaque .plaqueframe {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border-color: #003d83;
+    border-image: none;
+    border-style: solid;
+    border-width: 4px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#championship_plaque .plaque div {
+    display: inline-table;
+    float: none;
+    height: 81px;
+    margin-left: 8px;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 152px;
+}
+
+body .plaque h4 {
+    color: #043165;
+    font-weight: 400;
+    height: 14px;
+    margin-right: -2px;
+    text-shadow: 1px 1px 1px rgba(0, 61, 131, 0.2);
+    text-transform: uppercase;}
+
+
+
+#championship_plaque caption {
+     cursor: default;
+     display: none;
+}
+
+#championship_plaque td {
+     border: medium none;
+}
+
+
+
+
+/*  HISTORY MODULES COLORING YEAR VALUE 
+========================================= */
+
+#league_champions th[colspan="2"] {
+     font-size:14px;font-size:0.875rem;
+     color: #fff;
+}
+
+#record_streaks td.year,#season_records td.year,#player_records td.year,#franchise_records td.year,#my_trophy_case td.year {
+     color: #3a85da;
+}
+
+
+
+
+/*  LEAGUE CHAT 
+================= */
+
+#body_chat, #chat {
+     width: auto;
+     box-shadow:none;
+     border:0;
+     max-width: 100%;
+     height: 100%;
+}
+
+#chat_audio_clip {
+     display:none;
+}
+
+#chat {
+     margin-bottom: 0;
+     margin-top: 0;
+     padding-bottom: 0;
+     border:0;
+     background:none;
+     width: auto;
+}
+
+#body_chat h2 {
+     display: none;
+     margin-top: 10px;margin-top: 0.625rem;
+}
+
+#league_chat b {
+    color: #b91216;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+form {
+    margin-bottom: 0;
+    margin-top: 0px;
+}
+
+#league_chat td:nth-child(1) {
+     padding: 0px 5px;padding: 0px 0.3125rem;
+}
+
+
+
+
+/*  REPLACE CHAT POPUP IMAGE
+============================== */
+
+#league_chat caption img[alt="New Window"] {
+     background: url(https://www.dagrafixdesigns.com/Images/2008/DA_2017/WR_Skin/new_window-sprite.png) no-repeat scroll 0 0 transparent;
+     background-size:cover;
+     border: medium none ! important;
+     height: 15px;height: 0.9375rem;
+     margin-top:5px;margin-top:0.313rem;
+     padding-left: 15px;padding-left: 0.9375rem;
+     width: 15px;width: 0.9375rem;
+     margin-left:5px;margin-left:0.313rem;
+     position:absolute;
+}
+
+#league_chat caption img[alt="New Window"]:hover {
+     background: url(https://www.dagrafixdesigns.com/Images/2008/DA_2017/WR_Skin/new_window-sprite.png) no-repeat scroll -15px 0 transparent;background: url(new_window-sprite.png) no-repeat scroll -0.9375rem 0 transparent;
+     background-size:cover;
+}
+
+
+
+
+
+input[type="button"], input[type="submit"] {
+     -moz-appearance: none;
+     background: #003d83 none repeat scroll 0px 0px;
+     border: 0px none;
+     margin-bottom: 8px;
+     margin-top: 8px;
+     color: #ffffff;padding:4px!important;
+     cursor: pointer;
+}
+
+input[type="button"]:hover, input[type="submit"]:hover {
+     background: #1362be none repeat scroll 0% 0%;
+     color: #fff;padding:4px!important;
+     cursor: pointer;
+}
+
+#source_list,#destination_list {
+     background:#fff;
+     margin:0;
+     border:1px solid #ddd;border:0.063rem solid #ddd;
+     box-shadow:none;
+     border-radius:0;
+}
+
+#fantasy_articles th select,#body_options_185 .report th select{
+     width: 100%;
+     max-width: 400px;max-width: 25.000rem;
+     margin: 0;
+}
+
+textarea {
+     margin:10px 0;
+     width:100%;
+     background:#fff;
+     box-shadow:none;
+     border-radius:0;
+     border:1px solid #ddd;border:0.063rem solid #ddd;
+     max-height:100%;
+     text-transform:none;
+}
+
+
+
+
+/*  FRANCHISE ICONS AND LOGOS
+=============================== */
+
+caption.withfranchiseicon {
+     padding: 5px 0px;padding: 0.3125rem 0px;
+     text-align: center ! important;
+     text-indent: 0px;
+}
+
+caption.withfranchiseicon span {
+     background:none!important;
+     padding-left: 0px;
+}
+
+#body_options_13 img.franchiselogo {
+     display: none;
+}
+
+#options_13 .franchiselogo {
+     display: none;
+}
+
+.franchiselogo {
+    border: 0.6rem solid rgba(0, 61, 131, 0.9);
+    height: auto;
+    margin: 0.625rem auto;
+    max-width: 85%;}
+
+
+
+/*  ERROR MSG IF SUBMIT BAD LINEUP
+==================================== */
+#body_submit_lineups h4.warning {
+    background-color: rgba(0, 61, 131, 0.9);
+    border: 0.195rem solid rgba(245, 245, 245, 0.9);
+    border-radius: 0.1875rem;
+    box-shadow: 0 0 0.625rem rgba(0, 61, 131, 0.5);
+    color: #fff;
+    margin: 0 auto;
+    max-width: 45rem;
+    padding: 0.625rem;
+}
+
+#body_submit_lineups h4.warning br:first-of-type{
+     display:none;
+}
+
+
+
+
+/*  MFL VERTICAL MENU 
+======================= */
+
+#vsubmenu {
+     margin-left:-130px;margin-left:-8.125rem;
+     padding: 0;
+     position: absolute;
+}
+
+#withmenus.withleft {
+    margin-left: 0;
+    min-height: 60rem;
+}
+
+
+#withmenus.withleft {
+     min-height:960px;min-height:60.000rem;
+}
+
+#vsubmenu {
+     margin-bottom: 20px;margin-bottom: 1.25rem;
+}
+
+#vsubmenu ul {
+     width: 100px;width: 6.250rem;
+     line-height:1;
+}
+
+#vsubmenu ul li {
+    background: #003d83 none repeat scroll 0 0;
+    border: 0.125rem solid #fff;
+    border-radius: 0.1875rem;
+    box-shadow: 0 0 0.625rem rgba(0, 61, 131, 0.5);
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase !important;
+    width: 7.25rem;
+}
+
+#vsubmenu ul li ul {
+    margin-left: -0.3125rem;
+    padding-top: 0.3125rem;
+}
+#vsubmenu ul li ul li {
+    background: rgba(7, 42, 83, 0.6) none repeat scroll 0 0 !important;
+    border: 0.0625rem solid rgba(0, 29, 32, 0.9);
+    border-radius: 0;
+    box-shadow: none;
+    margin: 0.0625rem;
+    width: 6.525rem;
+}
+
+#vsubmenu ul li a {
+    border: 0 none;
+    color: #eee;
+    font-size: 0.785rem;
+    height: 1.25rem;
+    line-height: 1.375rem;
+    padding: 0;
+    text-align: left;
+    text-indent: 0.125rem;
+    text-transform: uppercase !important;
+    width: 100%;
+}
+
+#vsubmenu ul li a:hover {
+    background: rgba(10, 74, 147, 0.9) none repeat scroll 0 0;
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+#vsubmenu ul li ul li:hover {
+     border-color: rgba(0,0,0,.3);
+}
+
+.vsubmenuheader {
+     margin-top: 7px ! important;margin-top: 0.4375rem ! important;
+}
+
+li.vsubmenuheader:nth-child(1) {
+     margin-top: 0 ! important;
+}
+
+
+
+
+/*  MFL HORIZONTAL MENU
+========================= */
+
+#hsubmenu {
+    background: #003d83 none repeat scroll 0 0;
+    border: 0.15rem solid #f5f5f5;
+    border-radius: 0.1875rem;
+    box-shadow: 0 0 0.625rem rgba(0, 61, 131, 0.5);
+    display: table;
+    margin: 0.625rem 0;
+    padding: 0;
+    width: 100%;
+}
+#hsubmenu ul li:hover {
+    background: rgba(10, 74, 147, 0.9) none repeat scroll 0 0;
+}
+
+
+#hsubmenu ul  {
+     display: table-cell;
+}
+
+#hsubmenu ul li {
+     border-left:0;
+     padding: 5px 0px;padding: 0.3125rem 0px;
+     right: 0;
+     border-left:1px solid rgba(0, 0, 0, .8);border-left:0.0625rem solid rgba(0, 0, 0, .8);
+     float:none;
+     display: table-cell;
+     width:1%;
+}
+
+
+
+
+#hsubmenu ul li a{
+     border-left:0;
+     padding: 3px 16px;padding: 0.1875rem 1rem;
+}
+
+#hsubmenu ul li:first-of-type {
+     border-left:0;
+}
+
+#hsubmenu a {
+     color:#eee;
+     text-transform: uppercase;
+}
+
+#hsubmenu a:hover, #hsubmenu ul li:hover a {
+     color: #fff;
+     text-decoration:underline;
+}
+
+#hsubmenu ul {
+     float: none;
+     left: 0px;
+}
+
+#hsubmenu ul li:hover {
+     background:;
+}
+
+
+
+
+/*  PLAYOFF BRACKETS
+====================== */
+
+.homepagecolumn .playoffbracket {
+     margin-bottom:0;
+     padding-bottom: 12px;padding-bottom: 0.750rem;  /* remove this if report bg isnt same color as td */
+}
+
+#options_79 .playoffbracket {
+     margin-bottom: 15px;
+     margin-bottom: 0.938rem;
+     padding-bottom: 12px;padding-bottom: 0.750rem;  /* remove this if report bg isnt same color as td */
+}
+
+.playoffbracket td {
+  border: 0px none ! important;box-shadow:none;
+}
+
+.playoffbracket td.topteam {
+     border-bottom: 2px solid #3a85da!important;border-bottom: 0.125rem solid #3a85da!important;
+}
+
+.playoffbracket td.bracket {
+     border-right: 2px solid #3a85da!important;border-right!important: 0.125rem solid #3a85da!important;
+}
+
+.playoffbracket td.bottomteam {
+     border-bottom: 2px solid #3a85da!important;border-bottom: 0.125rem solid #3a85da!important;
+     border-right: 2px solid #3a85da!important;border-right: 0.125rem solid #3a85da!important;
+}
+
+.playoffbracket td b {
+     color: #;
+}
+
+.playoffbracket td {
+     font-size: 15px ! important;font-size: 0.938rem ! important;
+     text-align: center;
+}
+
+#home th.playoffbracketname {
+     font-size: 16px;font-size:1.000rem;
+     text-transform: uppercase;
+}
+
+.playoffbracket tr.lastrow {
+     line-height:10px!important;line-height:0.625rem!important;
+}
+
+.playoffbracket tr.lastrow td{
+     border:none!important;
+     color:transparent!important;
+     font-size:0!important;
+}
+
+.playoffbracket tr.lastrow img{
+     display:none!important;
+}
+
+
+
+
+/*  REPORT FOOTERS
+==================== */
+
+.reportfooter {
+    background: rgba(10, 74, 147, 0.99) none repeat scroll 0 0;
+    color: #fff;
+}
+.reportfooter a:link,.reportfooter a:active,.reportfooter a:visited{
+     color:#fff;
+}
+
+.reportfooter a:link:hover,.reportfooter a:active:hover,.reportfooter a:visited:hover{
+     color:#fff;
+}
+
+
+
+
+/*  BAR CHART
+=============== */
+
+#body_options_20 .report td img,#bar_chart .weeklypointtotals table td img{
+     max-width:100%;
+}
+
+#bar_chart .weeklypointtotals table,#body_options_20 .weeklypointtotals table {
+     width:auto;
+}
+
+#bar_chart .weeklypointtotals table td,#body_options_20 .weeklypointtotals table td{
+     border-right:0;
+     border-left:0;
+     padding-right:0;
+     padding-left:0;
+}
+
+#bar_chart .weeklypointtotals table td,#body_options_20 .weeklypointtotals table td{
+     border:0;
+}
+
+
+
+
+/*  LIVE SCORING PAGES
+======================== */
+
+#live_scoring_summary.pagebody, #live_scoring.pagebody {
+     margin-bottom:0;
+}
+
+#body_live_scoring_summary, #body_live_scoring.pagebody {
+     padding-bottom:10px;padding-bottom:0.625rem;
+}
+
+#live_scoring_summary .mobile-view, #live_scoring .mobile-view {
+     width:50%;
+}
+
+#live_scoring_summary table, #live_scoring table {
+     border-spacing:0;
+}
+
+#body_live_scoring_summary h2, #body_live_scoring h2 {
+    border-bottom: 0.55rem solid #cfdbea;
+    color: #fff;
+    font-size: 1.5rem;
+    margin-top: 0;
+    padding: 0.625rem 0;
+    text-transform: uppercase;
+}
+
+
+#body_live_scoring_summary h2.warning, #body_live_scoring h2.warning {
+     margin-top:10px;margin-top:0.625rem;
+     color:red;
+}
+
+#body_live_scoring_summary h3, #body_live_scoring h3 {
+    background: rgba(10, 74, 147, 0.9) none repeat scroll 0 0;
+    border: 0.063rem solid rgba(0, 61, 131, 0.9);
+    box-shadow: 0 0 0.625rem rgba(0, 61, 131, 0.5);
+    color: #fff;
+}
+
+#live_scoring_summary, #live_scoring {
+     z-index: 99999;
+}
+
+#live_scoring_summary .scoresummary {
+     border: medium none ! important;
+     margin-top: 10px;margin-top:0.625rem;
+     padding:0;
+}
+
+#livescoring_summary td+td  {
+     text-align:center;
+     padding:2px 0;padding:0.125rem 0;
+}
+
+#live_scoring_summary table.report .newposition td,
+#live_scoring table.report .newposition td {
+     border-top:0;
+}
+
+.teamscoresummary {
+     border:0;
+     margin:0;
+     padding:0;
+     background: none !important;
+     box-shadow:none;
+}
+
+tr.total td, tr.players_yet_to_play td, tr.players_currently_playing td, tr.player_minutes_remaining td {
+    background: rgba(255, 255, 255, 0.05) none repeat scroll 0 0;
+    border: 0.063rem solid #000;
+    color: #003d83;
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+tr.total th, tr.players_yet_to_play th, tr.players_currently_playing th, tr.player_minutes_remaining th {
+    background: rgba(255, 255, 255, 0.05) none repeat scroll 0 0;
+    border: 0.063rem solid #000;
+    color: #003d83;
+}
+
+.oddtablerow td.gameunderway,.eventablerow td.gameunderway,
+.oddtablerow td.updatedstats,.eventablerow td.updatedstats,
+.oddtablerow td.haspossession,.eventablerow td.haspossession,
+.oddtablerow td.redzone,.eventablerow td.redzone {
+     padding-right:22px!important;padding-right:1.375rem!important;
+     background-position: 99% center;
+     background-size:16px;background-size:1rem;
+}
+
+#body_live_scoring .grand_total td{
+     background: rgba(255,255,255,.05);
+     font-size:15px;font-size:0.938rem;
+     text-transform:uppercase;
+     color:#003d83!important;
+     border-top:4px solid #fff;border-top:0.250rem solid #fff;
+}
+
+
+#body_live_scoring .grand_total td{
+     background: rgba(255,255,255,.05);
+     font-size:15px;font-size:0.938rem;
+     text-transform:uppercase;
+     color:#fff;
+     border-top:4px solid #cccccc;border-top:0.250rem solid #0076ff;}
+
+
+#body_live_scoring td.subtotal b,#body_live_scoring td.subtotal + td b{color:#003d83;}
+
+
+.gameunderway {
+    background: rgba(0, 0, 0, 0) url("https://www.dagrafixdesigns.com/Images/2008/DA_2016/DA_Pro16/game_on.png") no-repeat scroll right center!important;}
+
+.updatedstats {
+    background: rgba(0, 0, 0, 0) url("https://www.dagrafixdesigns.com/Images/2008/DA_2016/DA_Pro16/update_stats.png") no-repeat scroll right center!important;}
+
+.haspossession {
+    background: rgba(0, 0, 0, 0) url("https://www.dagrafixdesigns.com/Images/2008/DA_2016/DA_Pro16/has_ball.png") no-repeat scroll right center!important;}
+
+.redzone {
+    background: rgba(0, 0, 0, 0) url("https://www.dagrafixdesigns.com/Images/2008/DA_2016/DA_Pro16/red_zone.gif") no-repeat scroll right center!important;}
+
+.shouldstart {
+    background: rgba(0, 0, 0, 0) url("https://www.dagrafixdesigns.com/Images/2008/DA_2016/DA_Pro16/green_up.png") no-repeat scroll right center;
+    padding-right: 20px!important;}
+
+.shouldbench {
+    background: rgba(0, 0, 0, 0) url("https://www.dagrafixdesigns.com/Images/2008/DA_2016/DA_Pro16/red_down.png") no-repeat scroll right center;
+    padding-right: 20px!important;}
+
+
+
+#live_scoring_summary table, #live_scoring table {
+     margin: 0px auto;
+     max-width: 1160px;
+}
+
+#live_scoring_summary table.report, #live_scoring table.report {
+     min-width: 300px;
+}
+
+#live_scoring_summary .scoresummary {
+     max-width: 400px;
+}
+
+
+
+
+table.scoresummary, table.h2hmatchups, table.report td.two_column_layout, table.two_column_layout .two_column_layout {
+     width: 50%;
+}
+
+#body_live_scoring_summary h2, #body_live_scoring h2 {
+     color: #ffffff;
+     font-size: 18pt;
+     padding: 10px 0px;
+     text-transform: uppercase;
+}
+
+#body_live_scoring_summary h3, #body_live_scoring h3 {
+     border: 1px solid #222222;
+}
+
+#live_scoring_summary, #live_scoring {
+     margin-bottom: 0px;
+     padding-bottom: 5px;
+     z-index: 99999;
+}
+
+#live_scoring_summary .scoresummary {
+     border: medium none !important;
+     margin-top: 10px;
+     padding: 0px;
+}
+
+#livescoring_summary td + td {
+     padding: 2px 0px;
+     text-align: center;
+}
+
+#live_scoring_summary table.report .newposition td, #live_scoring table.report .newposition td {
+     border-top: 0px none;
+}
+
+tr.total td {
+     background: #2a6ebb none repeat scroll 0px 0px;
+     color: #ffffff;
+     font-size: 12pt;
+}
+
+tr.players_yet_to_play td {
+     background: #2a6ebb none repeat scroll 0px 0px;
+     color: #ffffff;
+     font-size: 12pt;
+}
+
+tr.players_currently_playing td {
+     color: #;
+     font-size: 12pt;
+}
+
+tr.player_minutes_remaining td {
+     color: #;
+     font-size: 12pt;
+}
+
+
+
+
+.franchise_offline,.franchise_online{
+     background:none;
+     padding:0;
+}
+
+.franchise_offline::after,.franchise_online::after{
+     content:"";
+     display:inline-block;
+     border:1px solid #fff;border:0.063rem solid #fff;
+     width:10px;width:0.625rem;
+     height:10px;height:0.625rem;
+     border-radius:50%;
+     margin-left:4px;margin-left:0.250rem;
+}
+
+.franchise_offline::after{
+     background:#ccc;
+}
+
+.franchise_online::after{
+     background:lime;
+}
+
+
+
+
+/*  LINEUPS CSS LASK WK PLAYED
+================================ */
+
+#lineup .report b a,#submit_lineups .report b a,#submit_lineup.report b a {
+     color:#003d83;
+     font-style:italic;
+}
+
+#lineup .report b a:hover,#submit_lineups .report b a:hover,#submit_lineup.report b a:hover {
+     color:#003d83;
+}
+
+#lineup .reportnavigation i,#submit_lineups .reportnavigation i {
+     color:#003d83;
+}
+
+
+
+
+/*  ADJUST TABLE AND REPORT 
+============================ */
+
+#body_options_98 .report.nocaption,#body_options_18 .report.nocaption{
+     background: none;
+     border-radius: 0px;
+     border: 0;
+     box-shadow:none;
+     padding:0;
+}
+
+#body_login td[width="175"]{
+     display:none;
+}
+
+.homepagetabcontent > table[align="center"] > tbody:nth-child(1) > tr:nth-child(1) > td[valign="top"] {
+     border:0!important;
+     padding:0;
+     width:50%;
+     padding-right: 5px;
+     padding-right: 0.313rem;
+}
+
+.homepagetabcontent > table[align="center"] > tbody:nth-child(1) > tr:nth-child(1) > td[valign="top"]:last-child {
+     padding-right: 0;
+}
+
+.homepagetabcontent table[align="center"] {
+     border-spacing:0;
+}
+
+
+
+/*   MFL PLAYER NEWS POPUP
+=========================== */
+ div#MFLPlayerPopupLoading > center {color:#fff;}
+
+div#MFLPlayerPopupReminders.MFLPlayerPopupTabContent > center {color:#fff;}
+ div#MFLPlayerPopupReminders.MFLPlayerPopupTabContent > center > i > a {color:#3996ff;}
+
+ div#MFLPlayerPopupReminders.MFLPlayerPopupTabContent > center > i > a {color:#3996ff;}
+
+ div#MFLPlayerPopupTrades.MFLPlayerPopupTabContent > center > i {color:#fff;}
+
+.MFLPlayerPopupLoader {
+    border-color: #003d83 #eee #eee;
+}
+#MFLPlayerPopupClose {
+    border-color: #fff;
+    color: #fff;
+}
+#MFLPlayerPopupClose:hover {
+    background: #1362be none repeat scroll 0 0;
+    border-color: #fff;
+    color: #fff;
+}
+
+ul.MFLPlayerPopupTab {
+    background: rgba(0, 61, 131, 0.7) none repeat scroll 0 0;
+    border-bottom-color: #fff;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.75);
+}
+ul.MFLPlayerPopupTab li {
+    border-right-color: rgba(0, 0, 0, 0.5);
+}
+ul.MFLPlayerPopupTab li a {
+    border-right-color: rgba(45, 45, 45, 0.2);
+    color: #eee;
+}
+ul.MFLPlayerPopupTab li a:hover, ul.MFLPlayerPopupTab li a.active {
+    background-color: rgba(0, 61, 131, 0.9);
+    color: #fff;
+}
+
+
+#MFLPlayerPopupContainer .articlepicture {border-color:#003d83;}
+#MFLPlayerPopupContainer .warning {color:#b70000;}
+#MFLPlayerPopupContainer {background:url(https://www03.myfantasyleague.com/skins17/Silver_and_Black/bg.jpg)!important;}
+#MFLPlayerPopupContainer .report {background: rgba(0, 61, 131, 0.5); !important;}
+#MFLPlayerPopupContainer .report td {
+    font-size: 0.75rem;
+    padding: 0;}
+
+
+ul.MFLPlayerPopupTab {
+    border-bottom: 0.25rem solid #fff !important;
+    border-top: 0.25rem solid #fff !important;
+    height: 2.5rem;
+    line-height: 2rem;
+    padding: 0;
+    width: 100%;
+}
+
+
+
+
+/*  FULL WIDTH DISPLAY 
+============================ */
+
+body.full-width .pagebody,body.full-width .myfantasyleague_menu,body.full-width .pageheader,body.full-width .pagefooter {
+     max-width:100%;
+}
+
+div.toggle_module_login > table.toggle_login_content.report {
+     border: 1px solid rgba(42, 110, 187, 0.9) ! important;
+     box-shadow: 0px 0px 6px 1px rgba(0, 107, 232, 0.99);
+}
+
+
+div.toggle_module_search > table.toggle_search_content.report {
+     border: 1px solid rgba(42, 110, 187, 0.9) ! important;
+     box-shadow: 0px 0px 6px 1px rgba(0, 107, 232, 0.99);
+}
+
+select {
+    font-family: "Oswald",sans-serif !important;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;}
+
+#MFLroster {margin-top:20px;}
+
+
+img.articlepicture, #my_player_photos td img {
+    border: 0.1875rem solid #003d83;
+    height: auto;
+    margin: 0 auto;
+    outline: 0.0625rem solid #e6edf6;
+    width:;}
+
+
+
+img.articlepicture {
+    border: 6px solid rgba(0, 51, 109, 0.9);
+    box-shadow: 0 0 10px 5px rgba(0, 61, 131, 0.2);
+    height: auto;
+    margin: 10px;
+    max-width: 275px;
+}
+
+
+#options_73 img.articlepicture {max-width:450px;}
+
+#options_169 .h2hmatchups {
+     display: none;}
+
+#options_12 #MSG {
+    background: #ddd none repeat scroll 0 0;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    padding: 0;}
+
+table#trade_bait.homepagemodule.report > tbody > tr.oddtablerow.reportfooter > td > span.warning {color:#fff;}
+
+div#MFLPlayerPopupMessages.MFLPlayerPopupTabContent > center > i {color:#fff;}
+
+
+
+#monthly_calendar td {
+    border: 1px solid #003d83;
+    padding: 0;}
+ form > table.report {
+      background: transparent !important;}
+
+
+/* Color the text for show-hide on trade and bench show-hide on scoreboard */
+th span[id*="showBench"] a,th span[id*="hideBench"] a,a[id*="showAssets"],a[id*="hideAssets"] {color:#f60000}
+th span[id*="showBench"] a:hover,th span[id*="hideBench"] a:hover,a[id*="showAssets"]:hover,a[id*="hideAssets"]:hover{color:#fff;text-decoration: underline!important;} 
+
+
+
+
+/***************************************/
+/*           DRAFT ROOM STYLE          */
+/***************************************/
+/*  COLORING  */
+#custom_draftroom #draft_countdown_timer:before{color:#fff}
+#custom_draftroom #draft-controller{color:##003d83}
+#custom_draftroom #draft-edit a{color:#1362be}
+#custom_draftroom #draft-edit a:hover{color:#ccc}
+#custom_draftroom .fa-pause-circle,#custom_draftroom .fa-stop-circle,
+#custom_draftroom .fa-step-forward,#custom_draftroom .fa-play-circle{color:##003d83}
+#custom_draftroom .fa-pause-circle:hover,#custom_draftroom .fa-stop-circle:hover{color:#1362be}
+#custom_draftroom .fa-step-forward:hover,#custom_draftroom .fa-play-circle:hover{color:green}
+#custom_draftroom #make_pick th.owner-away {
+    background: rgba(0, 61, 131, 0.9) none repeat scroll 0 0;
+    color: #fff;
+}
+
+#custom_draftroom #make_pick i{color:#003d83}
+#custom_draftroom #make_pick i:hover{color:#1362be}
+#custom_draftroom .draft_picks_header tr{background: rgba(0,0,0,.2);}
+/*  HIGHLIGHT BG COLOR  */
+#custom_draftroom .draft_picks_container tr{background:none!important}
+#custom_draftroom .moohighlight,#custom_draftroom .draft_picks_container tr.moohighlight{background-color:rgba(218,54,54,.2)!important}
+#draft_status_table .moohighlight{background:none!important}
+#draft_status_table .moohighlight:first-child{background-color:rgba(218,54,54,.2)!important}
+/*  PLAYER PROFILE  */
+#custom_draftroom #draft_player_link{color: #fff}
+#custom_draftroom #player-profile th{background:none}
+#custom_draftroom #player-profile #draft_player_photo {
+    border: 4px solid rgba(42, 110, 187, 0.9);
+}
+
+/*   FORMATTING BELOW
+======================= */
+#custom_draftroom caption span.module_expand{display:none!important}
+#custom_draftroom .toggle_tabs .mobile-wrap{padding:5px}
+#custom_draftroom caption{cursor:default}
+#custom_draftroom .toggle_tabs{text-align:center;}
+/*  DRAFT TIMER  */
+#custom_draftroom #draft_countdown_timer:before{content:"Draft Timer: ";}
+#custom_draftroom #draft_countdown_timer{float:right;font-size:14px;font-weight:normal}
+/*  DRAFT CONTROL BUTTONS  */
+#custom_draftroom #draft-controller {
+     cursor: pointer;
+     font-size: 20px;
+     font-weight: bold;
+     position: relative;
+     text-align: center;
+}
+
+
+#custom_draftroom caption i{cursor:pointer}
+#custom_draftroom #draft-edit{font-size:30px;position:absolute;left:0;right:0;top:30px;width: 40px;margin: 0 auto}
+#custom_draftroom #draft-control{text-align:center;display:block}
+#custom_draftroom #draft-control i{margin:0 10px;font-size:30px;}
+#custom_draftroom #draft-control .fa-step-forward{margin-right:100px}
+/*  MAKE A PICK  */
+#custom_draftroom #Customdraft_makepick h3{margin:15px 0;}
+#custom_draftroom #make_pick{text-align:center;}
+#custom_draftroom #make_pick select{width:100%;max-width:100%;margin:0}
+#custom_draftroom #make_pick select[name="position"],#custom_draftroom #make_pick select[name="team"]{width:100px}
+#custom_draftroom #make_pick td{display:block;text-align:center}
+#custom_draftroom #make_pick th.owner-away{font-size:14px;font-weight:bold;padding:3px 0;display: block}
+#custom_draftroom #make_pick #source_list{max-height:150px;margin-bottom:10px}
+#custom_draftroom #make_pick #destination_list{max-height:100px;}
+#custom_draftroom #make_pick{position:relative;}
+#custom_draftroom #make_pick i{font-size:30px;vertical-align:middle;cursor:pointer}
+#custom_draftroom .source-list-arrow i.fa-arrow-circle-down{position:absolute;left:10px;margin-top:-4px}
+#custom_draftroom .source-list-arrow i.fa-arrow-circle-up{position:absolute;left:50px;margin-top:-4px}
+#custom_draftroom .draft-list-arrow{margin:0 10px}
+#custom_draftroom #make_pick td[valign="top"]{text-align:right}
+/*  DRAFT MESSAGES  */
+#custom_draftroom #draft_status{overflow-y:auto;height:80px}
+#custom_draftroom #draft_status ul{margin:0 5px;margin-left:0!important;padding:0 5px}
+#custom_draftroom #draft_status ul li{list-style:none;margin:0;padding:0 3px;border:0;margin-bottom:3px}
+/*  DRAFT PICKS  */
+#custom_draftroom .draftpicks #draft_picks_container{overflow-y:auto;height:554px}
+#custom_draftroom .draftpicks #draft_picks_container.commish-adjust{height:541px}
+#custom_draftroom .draftpicks{text-align:center;margin:0;padding:0}
+#custom_draftroom .draft_picks_header{position:relative}
+#custom_draftroom .draftpicks td{font-size:12px;text-align:left}
+#custom_draftroom .draftpicks td.pick{text-align:center}
+#custom_draftroom .draftpicks td.franchise{max-width:150px;min-width:150px;width:150px;}
+#custom_draftroom .draftpicks th,#custom_draftroom .draftpicks td{padding:0;margin:0;padding:2px}
+#custom_draftroom .draftpicks th.pick{position:absolute}
+#custom_draftroom .draftpicks .pick{text-align:center;max-width:40px;min-width:40px;width:40px}
+#custom_draftroom .draftpicks th.franchise{position:absolute;left:40px}
+#custom_draftroom .draftpicks th.selection{position:absolute;left:190px;}
+#custom_draftroom .draftpicks .selection{padding-left:5px}
+#custom_draftroom .draft_picks_header th:last-of-type:after{content:"Time";position:absolute;right:30px;visibility:visible;bottom:2px}
+
+/*********  REMOVE HIDDEN TO SHOW BLUE COLOR IN THE TH ROW ON MOBILE
+============================ ********/
+#custom_draftroom .draftpicks th.timestamp{visibility:}
+
+
+#custom_draftroom .draftpicks td.timestamp{text-align:right;font-style:italic;font-size:10px;white-space:nowrap;width:64px;max-width:64px}
+#custom_draftroom .draftpicks b,#custom_draftroom .draftpicks a,#custom_draftroom .draftpicks br{display:none!important}
+#custom_draftroom .draftpicks{font-size:0}
+#custom_draftroom .draftpicks td{padding:10px 2px}
+.draft_picks_header th{background:none}
+
+@media (pointer:coarse) {#custom_draftroom .draft_picks_header th:last-of-type:after{right:15px}}
+/*  PLAYER PROFILE  */
+#custom_draftroom #player-profile{padding:3px;table-layout:fixed;position:relative;text-transform: uppercase;}
+
+#custom_draftroom #player-profile caption span{color:transparent;font-size:0}
+
+#custom_draftroom #draft_player_link {
+    font-family: "oswald",sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    left: 12px;
+    pointer-events: none;
+    position: absolute;
+    text-decoration: none;
+    text-transform: uppercase;
+    top: 0px;}
+
+
+#custom_draftroom #player-profile #player_height_weight,#player-profile #player_dob_age,#player-profile #player_adp{text-align:center;}
+#custom_draftroom #player-profile #draft_player_photo{margin:5px 0}
+/*  ROSTERS  */
+#custom_draftroom #rostertable td:first-of-type{text-align:center}
+/*  DRAFT CHAT  */
+#custom_draftroom .franchiseicon{width:100%;max-width:150px;height:auto}
+/*  OWNER ACTIVITY MODULE  */
+#custom_draftroom #owner_activity td,#custom_draftroom #owner_activity th{text-align:left;}
+#custom_draftroom #avg_draft_time td:last-of-type,#custom_draftroom #avg_draft_time th:last-of-type{text-align:center}
+/*  AVG DRAFT TIME MODULE  */
+#custom_draftroom #avg_draft_time td,#custom_draftroom #avg_draft_time th{text-align:left;}
+#custom_draftroom #avg_draft_time td:last-of-type,#custom_draftroom #avg_draft_time th:last-of-type{text-align:center}
+/*  ADJUST 2 COLUMN MODULES  */
+#custom_draftroom .toggle_tabs div.mobile-wrap{max-width:100%;margin:5px;margin-bottom:10px;box-shadow:none;}
+#custom_draftroom .toggle_tabs caption{display:table-caption!important}
+#custom_draftroom .two_column_layout.mobile-view{padding:0;}
+
+
+
+
+#myfantasyleague_tabs .myfantasyleague_tabmenu #homepagetabs li {display: table-cell;width: 1%;}
+
+#myfantasyleague_tabs .myfantasyleague_tabmenu #homepagetabs li a {
+     display: block;
+     padding: 0px 2px;
+     white-space: nowrap;}
+
+div.toggle_tabs > table.report > tbody > tr > td > div.myfantasyleague_tabmenu {
+     border-left: 0px none;
+     border-right: 0px none;
+     border-top-left-radius: 0px;
+     border-top-right-radius: 0px;
+     border-top: 0px none;
+     box-shadow: none;}
+div#myfantasyleague_tabs caption {border: medium none;}
+table#custom-reports.report > caption {border-bottom: 0px none;}
+
+
+
+table#make_pick.report  input.draftbutton {
+    margin: 10px 0 10px 8px!important;
+}
+
+
+.alert-info-table, .tdalert span {
+    background: rgba(218, 54, 54, 0.2) none repeat scroll 0 0;
+    border: 0 none;
+    color: #003d83;
+    margin: 3px 0;
+    width: 99%;
+}
+
+.alert.alert-info-table .reportnavigationheader, .tdalert span b {color: #da3636;padding-right: 5px;}
+.alert, .tdalert span {
+     border-radius: 3px;
+     display: inline-table;
+     height: 25px;
+     line-height: 25px;
+     margin: 0px 0px 10px;
+     padding: 8px;
+     text-align: left;}
+
+div#custom_draftroom > div#myfantasyleague_tabs.mobile-wrap > div.toggle_tabs > table.report  {
+     background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% !important;
+     box-shadow:none;}
+
+ div#Customdraft_messages.mobile-wrap > table#draft_status_table.report {
+   box-shadow:none;}
+
+
+ div#custom_draftroom > div#myfantasyleague_tabs.mobile-wrap { background: #f5f5f5 none repeat scroll 0 0; 1px solid #003d83;}
+
+.draft_picks_header th {
+     background: rgba(0, 0, 0, 0) none repeat scroll 0px 0px;border-bottom:none;}
+
+#custom_draftroom  .report {
+   box-shadow:none;}
+
+
+div#Customdraft_profile.mobile-wrap > table#player-profile.report > tbody > tr > th {color:#003d83;}
+
+div#custom_draftroom   select {
+     border-radius: 3px;
+     border: 1px solid #e8edf1;
+     font-style: normal;
+     margin: 2px;
+     outline: 0px none;
+     padding: 3px;
+     text-decoration: none;
+}
+
+
+.h3-menu {
+    background: #f5f5f5 none repeat scroll 0 0;
+    border: 1px solid rgba(0, 61, 131, 0.7);
+    border-radius: 3px;
+    box-shadow: 0 0 8px 2px rgba(0, 61, 131, 0.2);
+    padding: 5px;
+    text-align: center;
+    margin: 0px 0px 10px;}
+
+div#custom_draftroom > div#myfantasyleague_tabs.mobile-wrap > div.toggle_tabs > table.report > tbody > tr > td > div.myfantasyleague_tabmenu > ul#homepagetabs {
+    margin-top: 12px;}
+#custom_draftroom .report th a:link, th a:active, th a:visited {
+    color: #003d83;text-decoration:underline!important;}
+#custom_draftroom .draft_picks_header tr {
+    background: rgba(0, 61, 131, 0.9) none repeat scroll 0 0!important;
+}
+#custom_draftroom .report {
+     padding:0}
+
+h3#draft_countdown_timer {
+     color: #fff;
+     font-size: 1rem;
+     text-transform: uppercase;}
+
+
+#custom_draftroom #draft_countdown_timer {
+     float: right;
+     font-size: 14px;
+     font-weight: normal;margin-top:-2px;}
+
+body#body_options_170  .container.page-wrapper {
+     display: block;
+     margin: 0px auto 10px;
+     max-width: 1170px;
+     overflow: auto;}
+
+body#body_options_170 .container.page-wrapper form > table.report  td > select {max-width:125px!important;}
+
+@media only screen and (max-width: 54.25em) {
+  #body_options_170 .franchiseicon { height: auto; width: 150px; }}
+
+
+img {
+image-rendering: -webkit-optimize-contrast;
+image-rendering: optimize-contrast;}
+
+
+
+
+
+td.hint {
+    color: #001c3c!important;}
+
+
+
+
+#picker tr, #picker td {
+     transition: none 0s ease 0s  !important;
+}
+
+#add.pickerbox tr, #add.pickerbox td {
+     transition: none 0s ease 0s  !important;
+}
+
+#drop tr, #drop td{
+     transition: none 0s ease 0s  !important;
+}
+
+
+#picker tr:hover {
+    background: #ff0000 none repeat scroll 0 0;
+    color: #ffffff;
+}
+#picker tr.highlight {
+    background: #00ff00 none repeat scroll 0 0;
+    color: #111111;
+}
+#add tr.highlight, #add tr:hover {
+    background: #00ff00 none repeat scroll 0 0;
+    color: #000000;
+}
+#drop tr.highlight, #drop tr:hover {
+    background: #ff0000 none repeat scroll 0 0;
+    color: #ffffff;
+    transition: none 0s ease 0s ;
+}
+
+#options_06 .h2hmatchups, #options_169 .h2hmatchups, #options_169 .h2hmatchups + h3, #options_22 .scoresummary, #options_22 h3, #body_weekly .scoresummary, #body_weekly h3 {display: none;}
+
+.fa.MFLPopupFontAwesomeMenu {
+    color: #eee;
+    float: right;
+    font-size: 24px;
+    padding-left: 12px!important;
+    padding-top: 6px;}
+
+
+
+
+
+
+
+
+#hpm_table  a:link, th a:active, th a:visited {
+    color: #fff;}
+
+#hpm_title_1,#hpm_title_2,#hpm_title_3,#hpm_title_4,#hpm_title_5,#hpm_title_6,#hpm_title_7,#hpm_title_8#hpm_title_9,#hpm_title_10 {transition: none!important;}
+
+
+td.hint {
+    color: #003d83 !important;}
+
+
+
+
+
+
+
+
+
+
