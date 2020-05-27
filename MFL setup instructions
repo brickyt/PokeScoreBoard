@@ -24,7 +24,7 @@ if(document.getElementById("body_ajax_ls")) {
 3. Place the following in a footer message (THERE ARE 2 SCRIPTS IN THIS SECTION ONLY INSTALL THE ONE THAT DESCRIBES YOUR LEAGUE - H2H or ALL PLAY)
 
 <script>
-var ls_scoreboardName = "ROTOM SCOREBOARD";   //enter text to name your scoreboard
+var ls_scoreboardName = "";   //enter text to name your scoreboard
 var showTeamName = false;                      //set to true to display franchise names in scoreboard header
 var showTeamIcon = true;                       //set to true to display franchise icons in scoreboard header
 var ls_includeProjections = true;              //set to true to display projections next to player scores
@@ -40,9 +40,6 @@ var ls_hide_bye_teams = false;                 //set to true to hide boxscore ma
 
 <!-- MFL LIVE SCORING SCRIPT H2H LEAGUES --> 
 <script src="//nitrografixx.com/MFL-Scoreboard/mfl_ls_scoring.js?v=v=1.0.6"></script> 
-
-<!-- MFL LIVE SCORING SCRIPT ALL PLAY LEAGUES --> 
-<script src="//nitrografixx.com/MFL-Scoreboard/mfl_ls_scoring_allplay.js?v=1.0.6"></script>  
  
 
  
@@ -54,3 +51,15 @@ var ls_hide_bye_teams = false;                 //set to true to hide boxscore ma
 H2H Dark version - css file http://nitrografixx.com/MFL-Scoreboard/dark_scoring_css.css?v=7
 
 H2H Light version - css file http://nitrografixx.com/MFL-Scoreboard/light_scoring_css.css?v=7
+
+-----------------------------OLD INFO-----------------------------
+
+
+<!-- LOAD SCOREBOARD FORMATTING CSS FILE -->
+<link rel="stylesheet" type="text/css" href="//www.nitrografixx.com/MFL-Scoreboard/skin/Scoreboard_base.css">
+
+<!-- LOAD SCOREBOARD RESPONSIVE CSS FILE REMOVE THIS IF NOT USING RESPONSIVE DESIGNS  -->
+<link rel="stylesheet" type="text/css" href="//www.nitrografixx.com/MFL-Scoreboard/skin/responsive_scoreboard.css">
+
+<!-- LOAD SCOREBOARD JS FILE  -->
+<script src="//www.nitrografixx.com/MFL-Scoreboard/scoreboard.js"></script>
