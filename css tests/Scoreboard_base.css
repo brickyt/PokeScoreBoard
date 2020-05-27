@@ -1,0 +1,480 @@
+#MFLCenterTop,
+.MFLGameLinks .MFLLiveScore,
+.MFLGameLinks .MFLNFLLiveScore {
+    font-weight: 700
+}
+
+#MFLTestParameters table#homepagecolumns {
+    padding: .313rem
+}
+
+#scoreboardTooltip {
+    position: absolute;
+    z-index: 100;
+    background: 0 0!important;
+    min-width: 250px;
+    min-width: 15.625rem
+}
+
+#scoreboardTooltip:after {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #263e68!important;
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -8px;
+    margin-left: -5px
+}
+
+#scoreboardTooltip.top:after {
+    border-top-color: transparent;
+    border-bottom: 10px solid #263e68!important;
+    top: 20px;
+    bottom: auto
+}
+
+#scoreboardTooltip.left:after {
+    left: 10px;
+    margin: 0
+}
+
+#scoreboardTooltip.right:after {
+    right: 10px;
+    left: auto;
+    margin: 0
+}
+
+#scoreboardTooltip table {
+    margin: 0
+}
+
+td[rel=scoreboardTooltip] {
+    cursor: help
+}
+
+#MFLScoreboardOverlay {
+    display: none;
+    height: 100%;
+    left: 0;
+    opacity: .7;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
+    background-color: #000
+}
+
+#MFLScoreboardContainer {
+    display: none;
+    left: 50%!important;
+    overflow: hidden;
+    position: fixed!important;
+    top: 50%!important;
+    z-index: 99999;
+    width: 100%;
+    max-width: 500px;
+    max-width: 31.25rem;
+    height: 250px;
+    height: 15.625rem
+}
+
+#MFLScoreboardLoading {
+    display: block;
+    padding-top: .625rem
+}
+
+#MFLScoreboardContainer .report {
+    height: 100%
+}
+
+.MFLScoreboardLineups .desktop-hide-caption,
+.desktop-hide-table {
+    display: none
+}
+
+#outerMFLScoreboardDiv td,
+#outerMFLScoreboardDiv td a,
+.MFLPlayerStatsPopup.report td {
+    font-family: 'Roboto Condensed', sans-serif
+}
+
+.top_sb_container {
+    min-height: 70px;
+    min-height: 4.375rem
+}
+
+#MFLFantasyMatchupsUpdate,
+#MFLNFLMatchupsUpdate {
+    text-align: center;
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 75px;
+    line-height: 4.688rem
+}
+
+.MFLWeeklyNavigation select {
+    width: auto
+}
+
+.MFLWeeklyNavigation .reportform {
+    text-transform: uppercase;
+    font-size: 100%
+}
+
+#MFLFantasyMatchups,
+#MFLFantasyMatchupsUpdate,
+#MFLNFLMatchups,
+#MFLNFLMatchupsUpdate {
+    min-height: 85px;
+    min-height: 5.313rem;
+    margin: .313rem 0;
+    width: 100%;
+    overflow: auto;
+    padding: 0;
+    -webkit-overflow-scrolling: touch
+}
+
+.MFLGameLinks tr {
+    height: 25px;
+    height: 1.563rem
+}
+
+.MFLGameLinks {
+    border-spacing: 1px
+}
+
+.MFLGameLinks,
+.MFLGameTable,
+.MFLNFLGameTable {
+    height: 100%
+}
+
+.MFLGameTable,
+.MFLNFLGameTable {
+    border-style: solid;
+    border-width: 1px;
+    border-spacing: 0
+}
+
+.MFLGameTable {
+    white-space: nowrap;
+    min-width: 150px;
+    min-width: 9.375rem
+}
+
+.matchupHilite,
+.matchupLolite {
+    cursor: pointer
+}
+
+.MFLScoreboardLineups td.oppRankAvgMatchup,
+.MFLScoreboardLineups td.oppRankBadMatchup,
+.MFLScoreboardLineups td.oppRankGoodMatchup,
+.MFLScoreboardLineups td.oppRankPoorMatchup,
+.MFLTeamLineup td.oppRankGreatMatchup {
+    cursor: default
+}
+
+.MFLGameLinks .nflicon {
+    height: 24px;
+    height: 1.5rem;
+    width: auto;
+    border-radius: 50%;
+    padding: 1px;
+    background: #fff;
+    border: 1px solid #ddd
+}
+
+#MFLHomePMR,
+#MFLHomePlayers,
+#MFLHomeScore,
+#MFLHomeScore span,
+#MFLHomeScore span a:after,
+#MFLHomeScore span a:before,
+#MFLHomeTeamName,
+#MFLHomeTeamRecord,
+#MFLHomeYTP,
+#MFLRoadPMR,
+#MFLRoadPlayers,
+#MFLRoadScore,
+#MFLRoadScore span,
+#MFLRoadScore span a:after,
+#MFLRoadScore span a:before,
+#MFLRoadTeamName,
+#MFLRoadTeamRecord,
+#MFLRoadYTP,
+.MFLMainScoreboard,
+.MFLMainScoreboard td.MFLScoreboardTitle {
+    border-width: .063rem;
+    border-style: solid
+}
+
+.MFLLiveTeam img {
+    height: 24px;
+    height: 1.5rem
+}
+
+.MFLLiveClock,
+.MFLNFLLiveClock {
+    text-align: center
+}
+
+.MFLGameLinks .MFLLiveTeam,
+.MFLGameLinks .MFLNFLLiveTeam {
+    width: 100%
+}
+
+.MFLGameLinks .MFLPaceScore {
+    font-size: 80%;
+    font-style: italic;
+    padding: 0 .313rem
+}
+
+.MFLLiveScore,
+.MFLNFLLiveScore {
+    text-align: right
+}
+
+#MFLHomeScore,
+#MFLHomeTeamName,
+#MFLHomeTeamRecord,
+#MFLRoadScore,
+#MFLRoadTeamName,
+#MFLRoadTeamRecord {
+    width: 33%
+}
+
+#MFLCenterTop {
+    font-size: 30px;
+    font-size: 1.875rem;
+    position: relative;
+    padding-bottom: .625rem
+}
+
+#MFLHomeTeamName,
+#MFLRoadTeamName {
+    font-size: 24px;
+    font-size: 1.5rem
+}
+
+#MFLHomeScore,
+#MFLRoadScore {
+    font-size: 30px;
+    font-size: 1.875rem;
+    padding: 0
+}
+
+#MFLHomeScore span.blank a,
+#MFLRoadScore span.blank a {
+    padding: 4px
+}
+
+#MFLHomeScore span,
+#MFLRoadScore span {
+    text-align: center;
+    position: relative;
+    width: 1%;
+    display: table-cell;
+    font-weight: 600;
+    line-height: 45px;
+    line-height: 2.813rem;
+    font-size: 40px;
+    font-size: 2.5rem;
+    text-decoration: none;
+    cursor: default
+}
+
+#MFLHomeScore span:before,
+#MFLRoadScore span:before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 1px;
+    height: .063rem;
+    width: 100%;
+    top: 22px;
+    top: 1.375rem;
+    left: 0;
+    z-index: 0
+}
+
+#MFLHomeScore span:after,
+#MFLRoadScore span:after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 1px;
+    height: .063rem;
+    width: 100%;
+    top: 23px;
+    top: 1.438rem;
+    left: 0;
+    z-index: 0
+}
+
+#MFLHomeScore span a:after,
+#MFLRoadScore span a:after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 9px;
+    height: .563rem;
+    width: 3px;
+    width: .188rem;
+    top: 18px;
+    top: 1.125rem;
+    left: 0;
+    z-index: 1
+}
+
+#MFLHomeScore span a:before,
+#MFLRoadScore span a:before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 9px;
+    height: .563rem;
+    width: 3px;
+    width: .188rem;
+    top: 18px;
+    top: 1.125rem;
+    right: 0;
+    z-index: 1
+}
+
+#MFLCenterTop span {
+    font-size: 11px;
+    font-size: .688rem;
+    font-weight: 400
+}
+
+#MFLCenterTop span.hometeam {
+    position: absolute;
+    right: 1%;
+    bottom: 1%
+}
+
+#MFLCenterTop span.awayteam {
+    position: absolute;
+    left: 1%;
+    bottom: 1%
+}
+
+#MFLHomeTeamName img,
+#MFLRoadTeamName img {
+    max-width: 100%;
+    max-height: 60px;
+    max-height: 3.75rem
+}
+
+.MFLMainScoreboard .nflicon {
+    max-width: 100%;
+    max-height: 60px;
+    max-height: 3.75rem;
+    border-radius: 50%;
+    margin: .125rem;
+    border: 2px solid #aaa;
+    border: .125rem solid #aaa;
+    padding: .313rem;
+    background: #fff
+}
+
+#MFLCenterTop .awayteam:before {
+    content: "<"
+}
+
+#MFLCenterTop .hometeam:after {
+    content: ">"
+}
+
+#MFLHomeScore div,
+#MFLRoadScore div {
+    border-spacing: 1px;
+    border-spacing: .063rem
+}
+
+.MFLMainScoreboard {
+    text-align: center;
+    border-radius: .125rem;
+    table-layout: fixed;
+    border-spacing: 2px;
+    border-spacing: .125rem
+}
+
+.MFLOuterTable.report {
+    padding: .313rem .25rem
+}
+
+.MFLScoreboardLineups tr.lineupHeaderRow th {
+    width: 9%
+}
+
+.MFLScoreboardLineups tr.lineupHeaderRow th.sos {
+    width: 5%
+}
+
+.MFLScoreboardLineups tr.lineupHeaderRow th.gamestime {
+    width: 14%
+}
+
+.MFLScoreboardLineups tr.lineupHeaderRow th.lineupHeaderGames {
+    width: 20%
+}
+
+.MFLScoreboardLineups tr.lineupHeaderRow th.lineupHeaderPlayer {
+    width: 35%
+}
+
+.MFLTeamLineup {
+    margin-bottom: 0
+}
+
+#outerMFLScoreboardDiv .mobile-view {
+    width: 50%
+}
+
+.MFLScoreboardLineups {
+    border-spacing: 0
+}
+
+.MFLScoreboardLineups .report td,
+.MFLScoreboardLineups .report th {
+    text-align: center;
+    border-left: 0;
+    border-right: 0;
+    box-shadow: none
+}
+
+.MFLScoreboardLineups .report td.MFLPlayerGame mobile-hide,
+.MFLScoreboardLineups .report td.MFLPlayerName,
+.MFLScoreboardLineups .report th.lineupHeaderPlayer,
+.MFLScoreboardLineups .report th.pointTotalTitle {
+    text-align: left
+}
+
+.MFLScoreboardLineups th.pointTotalActual,
+.MFLScoreboardLineups th.pointTotalProj {
+    font-weight: 700;
+    font-size: 14px;
+    font-size: .875rem
+}
+
+.MFLScoreboardLineups td.MFLPlayerProjections,
+.MFLScoreboardLineups th.pointTotalProj {
+    font-style: italic
+}
+
+td.MFLGameClock,
+td.MFLPlayerGame,
+td.sos {
+    font-size: 11px;
+    font-size: .688rem
+}
+
+.MFLScoreboardLineups .borderhide {
+    border-left: 0;
+    border-right: 0
+}
